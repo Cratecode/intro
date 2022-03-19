@@ -1,0 +1,15 @@
+{
+  "requireRun": true,
+  "validateConsole": [
+    {
+      "_comment": "Check to see if there's a 958.",
+      "regex": "/958/",
+      "message": "Make sure the program outputs the correct number. We should see \"958.5\" in the console."
+    },
+    {
+      "_comment": "Check to see if there's a 958.5.",
+      "regex": "/958\\.5/",
+      "message": "Did you use parseFloat? One of our inputs is a decimal, so make sure you parse it as one."
+    }
+  ]
+}

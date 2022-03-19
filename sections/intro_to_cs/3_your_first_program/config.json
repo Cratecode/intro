@@ -1,0 +1,9 @@
+{
+  "validate": [
+    {
+      "_comment": "Match two or more console.logs.",
+      "regex": "/(?:(?:.|\\n)*console\\.log\\((?:.|\\n)*\\)(?:.|\\n)*){2,}/",
+      "message": "Make sure you're printing something to the console."
+    }
+  ]
+}
