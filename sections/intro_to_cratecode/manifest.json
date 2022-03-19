@@ -1,0 +1,15 @@
+{
+  "type": "unit",
+  "id": "intro_to_cratecode",
+  "name": "Cratecode Introduction",
+  "upload": [
+    "0_welcome"
+  ],
+  "start": "les_welcome",
+  "lessons": {
+    "les_welcome": {
+      "next": [],
+      "requires": []
+    }
+  }
+}
