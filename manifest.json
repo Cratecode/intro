@@ -6,7 +6,6 @@
     "sections/intro_to_cratecode",
     "sections/intro_to_cs"
   ],
-  "start": "intro_to_cratecode",
   "lessons": {
     "intro_to_cratecode": {
       "next": [

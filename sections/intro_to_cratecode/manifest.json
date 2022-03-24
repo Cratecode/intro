@@ -5,7 +5,6 @@
   "upload": [
     "0_welcome"
   ],
-  "start": "les_welcome",
   "lessons": {
     "les_welcome": {
       "next": [],
