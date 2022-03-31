@@ -3,21 +3,7 @@
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended",
-        "next/core-web-vitals"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "plugins": ["react", "@typescript-eslint"],
+    "extends": ["eslint:recommended"],
     "rules": {
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "double"],
@@ -26,7 +12,6 @@
         "array-bracket-spacing": ["error", "never"],
         "comma-dangle": ["error", "always-multiline"],
         "comma-style": ["error", "last"],
-        "@typescript-eslint/no-unused-vars": ["error"],
         "no-trailing-spaces": ["error"],
         "spaced-comment": ["error", "always"],
         "line-comment-position": ["error", "above"]
