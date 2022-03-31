@@ -1,10 +1,13 @@
 {
-  "validate": [
-    {
-      "_comment": "Match two or more console.logs.",
-      "file": "index.js",
-      "regex": "/(?:(?:.|\\n)*console\\.log\\((?:.|\\n)*\\)(?:.|\\n)*){2,}/",
-      "message": "Make sure you're printing something to the console."
-    }
-  ]
+  "validator": {
+    "requireRun": true,
+    "validate": [
+      {
+        "_comment": "Match two or more console.logs.",
+        "file": "index.js",
+        "regex": "/(?:(?:.|\\n)*console\\.log\\((?:.|\\n)*\\)(?:.|\\n)*){2,}/",
+        "message": "Make sure you're printing something to the console."
+      }
+    ]
+  }
 }
