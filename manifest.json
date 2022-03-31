@@ -1,23 +1,16 @@
 {
-  "type": "unit",
-  "id": "main_intro",
-  "name": "Introduction to Computer Science",
-  "upload": [
-    "sections/intro_to_cratecode",
-    "sections/intro_to_cs"
-  ],
-  "lessons": {
-    "intro_to_cratecode": {
-      "next": [
-        "intro_to_cs"
-      ],
-      "requires": []
-    },
-    "intro_to_cs": {
-      "next": [],
-      "requires": [
-        "intro_to_cratecode"
-      ]
+    "type": "unit",
+    "id": "main_intro",
+    "name": "Introduction to Computer Science",
+    "upload": ["sections/intro_to_cratecode", "sections/intro_to_cs"],
+    "lessons": {
+        "intro_to_cratecode": {
+            "next": ["intro_to_cs"],
+            "requires": []
+        },
+        "intro_to_cs": {
+            "next": [],
+            "requires": ["intro_to_cratecode"]
+        }
     }
-  }
 }

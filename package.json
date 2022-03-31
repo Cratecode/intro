@@ -1,10 +1,10 @@
 {
-  "name": "intro",
-  "version": "1.0.0",
-  "description": "The intro curriculum.",
-  "private": true,
-  "dependencies": {
-    "eslint": "^8.11.0",
-    "prettier": "^2.6.0"
-  }
+    "name": "intro",
+    "version": "1.0.0",
+    "description": "The intro curriculum.",
+    "private": true,
+    "dependencies": {
+        "eslint": "^8.11.0",
+        "prettier": "^2.6.0"
+    }
 }

@@ -1,68 +1,44 @@
 {
-  "type": "unit",
-  "id": "intro_to_cs",
-  "name": "Computer Science Introduction",
-  "upload": [
-    "0_why_program",
-    "1_what_programming_means",
-    "2_basic_concepts",
-    "3_your_first_program",
-    "4_console.log",
-    "5_data_types",
-    "6_basic_calculator"
-  ],
-  "lessons": {
-    "les_why_program": {
-      "next": [
-        "les_what_programming_means"
-      ],
-      "requires": []
-    },
-    "les_what_programming_means": {
-      "next": [
-        "les_basic_concepts"
-      ],
-      "requires": [
-        "les_why_program"
-      ]
-    },
-    "les_basic_concepts": {
-      "next": [
-        "les_your_first_program"
-      ],
-      "requires": [
-        "les_what_programming_means"
-      ]
-    },
-    "les_your_first_program": {
-      "next": [
-        "les_console_log"
-      ],
-      "requires": [
-        "les_basic_concepts"
-      ]
-    },
-    "les_console_log": {
-      "next": [
-        "les_data_types"
-      ],
-      "requires": [
-        "les_your_first_program"
-      ]
-    },
-    "les_data_types": {
-      "next": [
-        "les_basic_calculator"
-      ],
-      "requires": [
-        "les_console_log"
-      ]
-    },
-    "les_basic_calculator": {
-      "next": [],
-      "requires": [
-        "les_data_types"
-      ]
+    "type": "unit",
+    "id": "intro_to_cs",
+    "name": "Computer Science Introduction",
+    "upload": [
+        "0_why_program",
+        "1_what_programming_means",
+        "2_basic_concepts",
+        "3_your_first_program",
+        "4_console.log",
+        "5_data_types",
+        "6_basic_calculator"
+    ],
+    "lessons": {
+        "les_why_program": {
+            "next": ["les_what_programming_means"],
+            "requires": []
+        },
+        "les_what_programming_means": {
+            "next": ["les_basic_concepts"],
+            "requires": ["les_why_program"]
+        },
+        "les_basic_concepts": {
+            "next": ["les_your_first_program"],
+            "requires": ["les_what_programming_means"]
+        },
+        "les_your_first_program": {
+            "next": ["les_console_log"],
+            "requires": ["les_basic_concepts"]
+        },
+        "les_console_log": {
+            "next": ["les_data_types"],
+            "requires": ["les_your_first_program"]
+        },
+        "les_data_types": {
+            "next": ["les_basic_calculator"],
+            "requires": ["les_console_log"]
+        },
+        "les_basic_calculator": {
+            "next": [],
+            "requires": ["les_data_types"]
+        }
     }
-  }
 }

@@ -1,4 +1,5 @@
 # What does it mean to program?
+
 First, let's address an important different: programming and coding aren't the same thing. Cratecode uses both, since code is a lot shorter than program, but Cratecode doesn't teach people how to code. It teaches them to program.
 
 Coding is the act of writing code. It might take a bit of memorization, and some knowledge about the language you're using. Someone who knows how to code could take a detailed document on what to write, but coding is simple.

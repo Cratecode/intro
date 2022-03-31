@@ -1,14 +1,12 @@
 {
-  "type": "unit",
-  "id": "intro_to_cratecode",
-  "name": "Cratecode Introduction",
-  "upload": [
-    "0_welcome"
-  ],
-  "lessons": {
-    "les_welcome": {
-      "next": [],
-      "requires": []
+    "type": "unit",
+    "id": "intro_to_cratecode",
+    "name": "Cratecode Introduction",
+    "upload": ["0_welcome"],
+    "lessons": {
+        "les_welcome": {
+            "next": [],
+            "requires": []
+        }
     }
-  }
 }

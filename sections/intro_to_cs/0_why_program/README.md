@@ -1,4 +1,5 @@
 # Why should you program?
+
 Before you learn to program, it's super important that you why you should, and critically, what you'll get out of it. Maybe you're already have a goal in mind, or something else that drives you, but I'd highly recommend you keep reading. It'll be worth your time, I promise.
 
 Also, I realize these might be a bit long. As you progress throughout this course, there will be a lot less reading and lot more building.
@@ -10,9 +11,10 @@ The core of math, what drives us to discover the future, is our curiosity. Math 
 Programming is also not like math. Results in math aren't very tangible—you might have a few equations, but to many, that just isn't worth the effort. Programming on the other hand, gives you actual, tangible results. You can build something that solves an actual problem in your life, create something spectacular that you can use to help (or maybe just show off to) others, or you can explore the unexplored.
 
 Programming can be used for so many things, and this course aims to allow you to explore many of them. During this course, you won't be taking a straight path. You can focus on learning some specific areas, and applying knowledge from one area of programming to another. On that note, here's a list of some of the many things that can be accomplished using programming:
-- Game development. Create your own games or interactive experiences, and share them with the world.
-- Web development. Create a website for anything. Cratecode is made using web development. What will you make with it?
-- App development. Create applications that serve a purpose. You can make desktop or console applications that work on some user input to achieve a goal. The possibilities are endless!
-- And many more. You can create bots for your favorite social platform or even entire programming languages.
+
+-   Game development. Create your own games or interactive experiences, and share them with the world.
+-   Web development. Create a website for anything. Cratecode is made using web development. What will you make with it?
+-   App development. Create applications that serve a purpose. You can make desktop or console applications that work on some user input to achieve a goal. The possibilities are endless!
+-   And many more. You can create bots for your favorite social platform or even entire programming languages.
 
 Finally, remember that everything is made using programming. Cratecode, the browser you're accessing it in, every application you use, and your operating system, all were made using programming. The world is built on programming, and you can help build what comes next.

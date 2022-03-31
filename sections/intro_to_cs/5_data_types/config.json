@@ -1,5 +1,5 @@
 {
-  "validator": {
-    "requireRun": true
-  }
+    "validator": {
+        "requireRun": true
+    }
 }
