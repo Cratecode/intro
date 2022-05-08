@@ -1,5 +1,6 @@
 {
     "type": "lesson",
     "id": "les_basic_concepts",
-    "name": "Basic concepts"
+    "name": "Basic concepts",
+    "spec": null
 }

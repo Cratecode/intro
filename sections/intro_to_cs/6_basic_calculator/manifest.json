@@ -1,5 +1,6 @@
 {
     "type": "lesson",
     "id": "les_basic_calculator",
-    "name": "Building a basic calculator"
+    "name": "Building a basic calculator",
+    "spec": "A program that takes in two numbers, num1 and num2, adds them together, and prints the result to the console."
 }

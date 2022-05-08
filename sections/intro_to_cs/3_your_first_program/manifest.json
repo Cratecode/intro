@@ -1,5 +1,6 @@
 {
     "type": "lesson",
     "id": "les_your_first_program",
-    "name": "Your first program"
+    "name": "Your first program",
+    "spec": "A program that prints a message to the console."
 }

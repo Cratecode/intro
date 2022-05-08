@@ -1,5 +1,6 @@
 {
     "type": "lesson",
     "id": "les_console_log",
-    "name": "console.log"
+    "name": "console.log",
+    "spec": null
 }
