@@ -1,0 +1,13 @@
+{
+  "__comment": "This is a unit that introduces students to p5.js and gives them a general feel for working with it.",
+  "type": "unit",
+  "id": "intro_to_p5",
+  "name": "Intro to p5.js",
+  "upload": ["0_what_is_p5"],
+  "lessons": {
+    "les_what_is_p5": {
+      "next": [],
+      "requires": []
+    }
+  }
+}
