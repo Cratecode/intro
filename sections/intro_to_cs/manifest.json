@@ -1,4 +1,5 @@
 {
+    "__comment": "This is a unit that gives students a feel for computer science, and prompts them to explore basic console applications.",
     "type": "unit",
     "id": "intro_to_cs",
     "name": "Computer Science Introduction",

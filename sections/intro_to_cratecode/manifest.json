@@ -1,4 +1,5 @@
 {
+    "__comment": "This is a unit that introduces students to Cratecode.",
     "type": "unit",
     "id": "intro_to_cratecode",
     "name": "Cratecode Introduction",
