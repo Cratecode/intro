@@ -4,6 +4,7 @@
         "validate": [
             {
                 "_comment": "There should be a parseInt or parseFloat somewhere in their code.",
+                "file": "index.js",
                 "regex": "/(?:parseInt|parseFloat)/g",
                 "message": "Make sure you use one of the parsing functions we looked at in the previous lesson."
             }
