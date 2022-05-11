@@ -1,6 +1,7 @@
 {
   "type": "lesson",
   "id": "les_what_is_p5",
+  "extends": "p5_sketch",
   "name": "Making Art with Code",
   "spec": null
 }
