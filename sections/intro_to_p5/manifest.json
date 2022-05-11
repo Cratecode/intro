@@ -3,11 +3,15 @@
   "type": "unit",
   "id": "intro_to_p5",
   "name": "Intro to p5.js",
-  "upload": ["0_what_is_p5"],
+  "upload": ["0_what_is_p5", "1_drawing_basic_shapes"],
   "lessons": {
     "les_what_is_p5": {
-      "next": [],
+      "next": ["les_drawing_basic_shapes"],
       "requires": []
+    },
+    "les_drawing_basic_shapes": {
+      "next": [],
+      "requires": ["les_what_is_p5"]
     }
   }
 }

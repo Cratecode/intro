@@ -1,0 +1,7 @@
+{
+  "type": "lesson",
+  "id": "les_drawing_basic_shapes",
+  "extends": "p5_sketch",
+  "name": "Drawing Basic Shapes",
+  "spec": null
+}
