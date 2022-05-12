@@ -1,0 +1,7 @@
+{
+  "type": "lesson",
+  "id": "les_getting_complex",
+  "extends": "p5_sketch",
+  "name": "Getting Complex",
+  "spec": null
+}

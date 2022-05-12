@@ -10,8 +10,12 @@
       "requires": []
     },
     "les_drawing_basic_shapes": {
-      "next": [],
+      "next": ["les_getting_complex"],
       "requires": ["les_what_is_p5"]
+    },
+    "les_getting_complex": {
+      "next": [],
+      "requires": ["les_drawing_basic_shapes"]
     }
   }
 }
