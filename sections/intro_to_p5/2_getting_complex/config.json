@@ -6,7 +6,7 @@
         "requireRun": true,
         "validate": [
             {
-                "_comment": "The ellipse function should be used.",
+                "_comment": "The rect function should be used.",
                 "file": "user/sketch.js",
                 "regex": "/rect\\((?:.|\\n)*\\)/g",
                 "message": "Make sure you keep the rect example in your draw function."
