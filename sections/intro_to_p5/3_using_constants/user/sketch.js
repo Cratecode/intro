@@ -16,8 +16,8 @@ function draw() {
     // You should only make the x, y, width, and height constants.
     // Everything else (2, 3, 4) are numbers that manipulate them and can
     // stay as-is.
-    rect(50 - 100 / 4, 75 - 80 / 4, 100 / 2, 75 / 2);
-    rect(50 + (3 * 100) / 4, 75 - 80 / 4, 100 / 2, 75 / 2);
-    rect(50 - 100 / 4, 75 + (3 * 80) / 4, 100 / 2, 75 / 2);
-    rect(50 + (3 * 100) / 4, 75 + (3 * 80) / 4, 100 / 2, 75 / 2);
+    rect(50 - 100 / 4, 75 - 80 / 4, 100 / 2, 80 / 2);
+    rect(50 + (3 * 100) / 4, 75 - 80 / 4, 100 / 2, 80 / 2);
+    rect(50 - 100 / 4, 75 + (3 * 80) / 4, 100 / 2, 80 / 2);
+    rect(50 + (3 * 100) / 4, 75 + (3 * 80) / 4, 100 / 2, 80 / 2);
 }
