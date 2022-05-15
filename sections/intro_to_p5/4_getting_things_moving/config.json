@@ -1,0 +1,28 @@
+{
+    "root": "/user",
+    "outputView": "web",
+    "outputViews": ["web"],
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "The rect function should be used.",
+                "file": "user/sketch.js",
+                "regex": "/rect\\((?:.|\\n)*\\)/g",
+                "message": "Make sure you keep the rect example in your draw function."
+            },
+            {
+                "_comment": "One variable should be declared.",
+                "file": "user/sketch.js",
+                "regex": "/let\\s+\\w+\\s*=\\s*\\w+\\s*;/g",
+                "message": "Make sure you make your y position a variable (and not a constant)."
+            },
+            {
+                "_comment": "Three constants should be declared.",
+                "file": "user/sketch.js",
+                "regex": "/^(?:(?:.|\\n)*const\\s+\\w+\\s*=\\s*\\d+\\s*;(?:.|\\n)*){3,}$/",
+                "message": "Make sure you declare a constant for the values which don't change (x, width, and height)."
+            }
+        ]
+    }
+}
