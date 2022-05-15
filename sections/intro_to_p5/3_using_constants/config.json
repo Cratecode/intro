@@ -1,0 +1,22 @@
+{
+    "root": "/user",
+    "outputView": "web",
+    "outputViews": ["web"],
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "The rect function should be used.",
+                "file": "user/sketch.js",
+                "regex": "/rect\\((?:.|\\n)*\\)/g",
+                "message": "Make sure you keep the rect example in your draw function."
+            },
+            {
+                "_comment": "Four constants should be declared.",
+                "file": "user/sketch.js",
+                "regex": "/^(?:(?:.|\\n)*const\\s+\\w+\\s*=\\s*\\d+\\s*;(?:.|\\n)*){4,}$/",
+                "message": "Make sure you declare a constant for both positions (x and y) and dimensions (width and height) of the object."
+            }
+        ]
+    }
+}

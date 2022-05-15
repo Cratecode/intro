@@ -3,7 +3,7 @@
   "type": "unit",
   "id": "intro_to_p5",
   "name": "Intro to p5.js",
-  "upload": ["0_what_is_p5", "1_drawing_basic_shapes", "2_getting_complex"],
+  "upload": ["0_what_is_p5", "1_drawing_basic_shapes", "2_getting_complex", "3_using_constants"],
   "lessons": {
     "les_what_is_p5": {
       "next": ["les_drawing_basic_shapes"],
@@ -14,8 +14,12 @@
       "requires": ["les_what_is_p5"]
     },
     "les_getting_complex": {
-      "next": [],
+      "next": ["les_getting_complex"],
       "requires": ["les_drawing_basic_shapes"]
+    },
+    "les_using_constants": {
+      "next": [],
+      "requires": ["les_getting_complex"]
     }
   }
 }
