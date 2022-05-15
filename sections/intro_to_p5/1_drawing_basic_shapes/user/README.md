@@ -25,5 +25,5 @@ background("#12ef12"); // hex color, a more compact way to write an RGB color.
 
 The ellipse function is used to draw an ellipse (a circle is just an ellipse with the same width and height). The first two arguments are the x and y position for the ellipse, and the third and fourth are the width and height. Try experimenting with these functions and see what you can make!
 
-Finally, here's a quick reference for some of the basics of p5.js. This will be included in each p5.js lesson:
+Finally, here's a quick reference for some of the basics of p5.js. Remember, programming is about solving problems (not memorization), and you're expected to use a resource like this. This will be included in each p5.js lesson:
 [p5.js cheatsheet](https://bmoren.github.io/p5js-cheat-sheet/).

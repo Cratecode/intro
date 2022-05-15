@@ -14,3 +14,5 @@ console.log("Second calculation:", 85 / num * 17 + num - 6);
 ```
 
 We can apply this to our object to make it easier to use. I've separated out the object's values into their expressions. All you have to do is replace them with constants. Try playing around with the values of your new constants and see how the object moves with them. Good luck!
+
+[p5.js cheatsheet](https://bmoren.github.io/p5js-cheat-sheet/).
