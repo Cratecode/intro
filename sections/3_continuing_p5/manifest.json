@@ -1,0 +1,13 @@
+{
+  "__comment": "This is a unit that continues teaching CS concepts through more advanced p5.js.",
+  "type": "unit",
+  "id": "continuing_p5",
+  "name": "Continuing p5.js",
+  "upload": ["0_making_things_stop"],
+  "lessons": {
+    "les_making_things_stop": {
+        "next": [],
+        "requires": []
+    }
+  }
+}
