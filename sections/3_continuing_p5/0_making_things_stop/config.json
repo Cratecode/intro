@@ -20,7 +20,7 @@
             {
                 "_comment": "An if statement should be used.",
                 "file": "user/sketch.js",
-                "regex": "/if\s+\(/g"
+                "regex": "/if\\s+\\(/g"
             }
         ]
     }
