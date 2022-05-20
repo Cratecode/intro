@@ -1,0 +1,16 @@
+{
+    "root": "/user",
+    "outputView": "web",
+    "outputViews": ["web"],
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "The keyPressed function should exist.",
+                "file": "user/sketch.js",
+                "regex": "/function\\s+onKeyPressed/g",
+                "message": "Make sure you have a keyPressed function."
+            }
+        ]
+    }
+}
