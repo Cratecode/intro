@@ -1,0 +1,13 @@
+{
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "The prompts library should be imported.",
+                "file": "index.js",
+                "regex": "/require\\(\\s*[`'\"]prompts[`'\"]\\s*\\)/g",
+                "message": "Make sure you've imported the prompts library using require."
+            }
+        ]
+    }
+}

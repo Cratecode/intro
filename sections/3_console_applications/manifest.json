@@ -1,0 +1,13 @@
+{
+  "__comment": "This is a unit that continues teaching CS concepts through console applications.",
+  "type": "unit",
+  "id": "console_applications",
+  "name": "Console Applications",
+  "upload": ["0_upgrading_our_calculator"],
+  "lessons": {
+    "les_upgrading_our_calculator": {
+        "next": [],
+        "requires": []
+    }
+  }
+}
