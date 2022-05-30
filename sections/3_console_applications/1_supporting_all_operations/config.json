@@ -1,0 +1,19 @@
+{
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "An if statement should be used.",
+                "file": "index.js",
+                "regex": "/if\\s*\\(/g",
+                "message": "Make sure you use an if statement."
+            },
+            {
+                "_comment": "An if else statement should be used.",
+                "file": "index.js",
+                "regex": "/if\\s*else\\s*\\(/g",
+                "message": "Make sure you use an if else statement."
+            }
+        ]
+    }
+}

@@ -3,11 +3,15 @@
   "type": "unit",
   "id": "console_applications",
   "name": "Console Applications",
-  "upload": ["0_upgrading_our_calculator"],
+  "upload": ["0_upgrading_our_calculator", "1_supporting_all_operations"],
   "lessons": {
     "les_upgrading_our_calculator": {
-        "next": [],
+        "next": ["les_supporting_all_operations"],
         "requires": []
+    },
+    "les_supporting_all_operations": {
+        "next": [],
+        "requires": ["les_upgrading_our_calculator"]
     }
   }
 }
