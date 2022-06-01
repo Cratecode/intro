@@ -2,7 +2,7 @@
     "type": "unit",
     "id": "main_intro",
     "name": "Introduction to Computer Science",
-    "upload": ["sections/0_intro_to_cratecode", "sections/1_intro_to_cs", "sections/2_intro_to_p5", "sections/3_continuing_p5", "sections/3_console_applications"],
+    "upload": ["sections/0_intro_to_cratecode", "sections/1_intro_to_cs", "sections/2_intro_to_p5", "sections/3_continuing_p5", "sections/3_console_applications", "sections/4_making_websites"],
     "templates": "templates",
     "lessons": {
         "intro_to_cratecode": {
@@ -24,6 +24,10 @@
         "console_applications": {
             "next": [],
             "requires": ["intro_to_p5"]
-        }
+        },
+		"making_websites": {
+			"next": [],
+			"requires": []
+		}
     }
 }
