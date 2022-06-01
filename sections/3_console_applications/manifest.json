@@ -3,15 +3,23 @@
   "type": "unit",
   "id": "console_applications",
   "name": "Console Applications",
-  "upload": ["0_upgrading_our_calculator", "1_supporting_all_operations"],
+  "upload": ["0_upgrading_our_calculator", "1_supporting_all_operations", "2_word_splitter", "3_palindromes"],
   "lessons": {
     "les_upgrading_our_calculator": {
         "next": ["les_supporting_all_operations"],
         "requires": []
     },
     "les_supporting_all_operations": {
-        "next": [],
+        "next": ["les_word_splitter"],
         "requires": ["les_upgrading_our_calculator"]
+    },
+    "les_word_splitter": {
+        "next": ["les_palindromes"],
+        "requires": ["les_supporting_all_operations"]
+    },
+    "les_palindromes": {
+        "next": [],
+        "requires": ["les_word_splitter"]
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+    "root": "/user",
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "JSDoc comments should be used.",
+                "file": "index.js",
+                "regex": "/\\/\\*\\*/g",
+                "message": "Make sure you use JSDoc comments."
+            },
+            {
+                "_comment": "A for loop should be used.",
+                "file": "index.js",
+                "regex": "/for\\s*\\(/g",
+                "message": "Make sure you use a for loop."
+            },
+            {
+                "_comment": "The split function should be used.",
+                "file": "index.js",
+                "regex": "/split\\s*\\(/g",
+                "message": "Make sure you use the split command."
+            }
+        ]
+    }
+}
