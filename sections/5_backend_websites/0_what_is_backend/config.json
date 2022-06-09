@@ -1,0 +1,8 @@
+{
+    "root": "/user",
+    "outputView": "web",
+    "outputViews": ["web"],
+	"validator": {
+        "requireRun": true
+	}
+}

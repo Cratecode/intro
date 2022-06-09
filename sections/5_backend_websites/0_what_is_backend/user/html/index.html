@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Backend Counter</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <!-- These objects are the things we see on the webpage. -->
+        <p id="counter-value"></p>
+        <!-- This creates a button that runs the update function when it's clicked. -->
+        <input type="button" onClick="update()" />
+        
+        <!-- We use a script tag to add JavaScript to our websites. -->
+        <script>
+            async function update() {
+                // Now, let's send a request to our backend. We have some magic code setup that means anything that starts with /api will go to our backend service. Fetch doesn't return the content of the request unless we tell it to, so we need to add the .then part.
+                const curNum = await fetch("/api/count").then(res => res.text());
+                
+                // This piece of code gets the paragraph we made above using its ID, then sets the "innerHTML" (the stuff between the starting and closing tags, in this case, text) to the counter number.
+                document.getElementById("counter-value").innerHTML = "Counter value: " + curNum;
+            }
+            
+            update();
+        </script>
+    </body>
+</html>

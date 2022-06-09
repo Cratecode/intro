@@ -1,0 +1,7 @@
+{
+  "type": "lesson",
+  "id": "les_what_is_backend",
+  "extends": "backend_server",
+  "name": "What is Backend?",
+  "spec": null
+}
