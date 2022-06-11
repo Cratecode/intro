@@ -6,16 +6,13 @@
   "upload": ["0_making_things_stop", "1_taking_user_input", "2_putting_it_all_together"],
   "lessons": {
     "les_making_things_stop": {
-        "next": ["les_taking_user_input"],
-        "requires": []
+        "next": ["les_taking_user_input"]
     },
     "les_taking_user_input": {
-      "next": ["les_putting_it_all_together"],
-      "requires": ["les_making_things_stop"]
+      "next": ["les_putting_it_all_together"]
     },
 	"les_putting_it_all_together": {
-		"next": [],
-		"requires": ["les_taking_user_input"]
+		"next": []
 	}
   }
 }

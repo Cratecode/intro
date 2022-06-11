@@ -6,8 +6,7 @@
   "upload": ["0_what_is_backend"],
   "lessons": {
     "les_what_is_backend": {
-	  "requires": [],
-	  "next": []
+      "next": []
 	}
   }
 }

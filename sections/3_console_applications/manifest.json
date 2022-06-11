@@ -6,20 +6,16 @@
   "upload": ["0_upgrading_our_calculator", "1_supporting_all_operations", "2_word_splitter", "3_palindromes"],
   "lessons": {
     "les_upgrading_our_calculator": {
-        "next": ["les_supporting_all_operations"],
-        "requires": []
+        "next": ["les_supporting_all_operations"]
     },
     "les_supporting_all_operations": {
-        "next": ["les_word_splitter"],
-        "requires": ["les_upgrading_our_calculator"]
+        "next": ["les_word_splitter"]
     },
     "les_word_splitter": {
-        "next": ["les_palindromes"],
-        "requires": ["les_supporting_all_operations"]
+        "next": ["les_palindromes"]
     },
     "les_palindromes": {
-        "next": [],
-        "requires": ["les_word_splitter"]
+        "next": []
     }
   }
 }

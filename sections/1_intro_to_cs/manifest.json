@@ -14,32 +14,25 @@
     ],
     "lessons": {
         "les_why_program": {
-            "next": ["les_what_programming_means"],
-            "requires": []
+            "next": ["les_what_programming_means"]
         },
         "les_what_programming_means": {
-            "next": ["les_basic_concepts"],
-            "requires": ["les_why_program"]
+            "next": ["les_basic_concepts"]
         },
         "les_basic_concepts": {
-            "next": ["les_your_first_program"],
-            "requires": ["les_what_programming_means"]
+            "next": ["les_your_first_program"]
         },
         "les_your_first_program": {
-            "next": ["les_console_log"],
-            "requires": ["les_basic_concepts"]
+            "next": ["les_console_log"]
         },
         "les_console_log": {
-            "next": ["les_data_types"],
-            "requires": ["les_your_first_program"]
+            "next": ["les_data_types"]
         },
         "les_data_types": {
-            "next": ["les_basic_calculator"],
-            "requires": ["les_console_log"]
+            "next": ["les_basic_calculator"]
         },
         "les_basic_calculator": {
-            "next": [],
-            "requires": ["les_data_types"]
+            "next": []
         }
     }
 }

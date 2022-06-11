@@ -6,33 +6,26 @@
     "templates": "templates",
     "lessons": {
         "intro_to_cratecode": {
-            "next": ["intro_to_cs"],
-            "requires": []
+            "next": ["intro_to_cs"]
         },
         "intro_to_cs": {
-            "next": ["intro_to_p5"],
-            "requires": ["intro_to_cratecode"]
+            "next": ["intro_to_p5"]
         },
         "intro_to_p5": {
-            "next": ["continuing_p5", "console_applications"],
-            "requires": ["intro_to_cs"]
+            "next": ["continuing_p5", "console_applications"]
         },
         "continuing_p5": {
-            "next": ["making_websites"],
-            "requires": ["intro_to_p5"]
+            "next": ["making_websites"]
         },
         "console_applications": {
-            "next": ["making_websites"],
-            "requires": ["intro_to_p5"]
+            "next": ["making_websites"]
         },
 		"making_websites": {
-			"next": ["backend_websites"],
-			"requires": ["continuing_p5", "console_applications"],
-            "requireAll": false
+			"next": ["backend_websites"]
 		},
 		"backend_websites": {
 			"next": [],
-			"requires": ["making_websites", "console_applications"],
+			"previous": ["making_websites", "console_applications"],
             "requireAll": true
 		}
     }

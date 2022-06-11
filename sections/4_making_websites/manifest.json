@@ -6,12 +6,10 @@
   "upload": ["0_making_websites", "1_basic_html"],
   "lessons": {
     "les_making_websites": {
-        "next": ["les_basic_html"],
-        "requires": []
+        "next": ["les_basic_html"]
     },
 	"les_basic_html": {
-		"next": [],
-		"requires": ["les_making_websites"]
+		"next": []
 	}
   }
 }
