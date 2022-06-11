@@ -18,7 +18,7 @@
             "next": ["les_getting_complex"]
         },
         "les_getting_complex": {
-            "next": ["les_getting_complex"]
+            "next": ["les_using_constants"]
         },
         "les_using_constants": {
             "next": ["les_getting_things_moving"]
