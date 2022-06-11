@@ -1,15 +1,15 @@
 {
-  "__comment": "This is a unit that introduces students to ideas behind websites.",
-  "type": "unit",
-  "id": "making_websites",
-  "name": "Making Websites",
-  "upload": ["0_making_websites", "1_basic_html"],
-  "lessons": {
-    "les_making_websites": {
-        "next": ["les_basic_html"]
-    },
-	"les_basic_html": {
-		"next": []
-	}
-  }
+    "__comment": "This is a unit that introduces students to ideas behind websites.",
+    "type": "unit",
+    "id": "making_websites",
+    "name": "Making Websites",
+    "upload": ["0_making_websites", "1_basic_html"],
+    "lessons": {
+        "les_making_websites": {
+            "next": ["les_basic_html"]
+        },
+        "les_basic_html": {
+            "next": []
+        }
+    }
 }

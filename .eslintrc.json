@@ -5,6 +5,8 @@
     },
     "extends": ["eslint:recommended"],
     "rules": {
+        "no-unused-vars": "off",
+        "no-undef": "off",
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "double"],
         "semi": ["error", "always"],

@@ -1,4 +1,5 @@
 # What is Backend?
+
 Let's talk about websites. Whenever you visit a website, there are two main "types" of applications that you'll interact with: the frontend and the backend.
 
 The frontend is the stuff that you see. It's the .html files, including any JavaScript that we put inside of it. The backend, however, is everything that you don't see. When you log in to a website, your browser talks to the backend of the website and handles authentication. When you view a webpage with dynamic (changing content, think of a social media site), that uses the backend. The purpose of a backend is to provide data of some kind to the frontend, be it information about your account, a recommended post, or the README file on a programming website, it all is handled by the backend.

@@ -1,17 +1,17 @@
 # Making Websites
+
 We're going to take a deep dive through the ways that websites work. Every website (even this one) is built using a language called HTML (Hyper Text Markup Language). HTML is more for creating rich text documents (websites are super, super fancy text documents) than for programming, but it's essential to know for anything related to the web, even if you don't end up using it all that often.
 
 That being said, we haven't separated from JavaScript quite yet. JavaScript runs on websites and makes things interactive, which turns websites from fancy text documents to actual applications. To start off, we're just going to look at making simple websites, but I promise we'll soon fan out to many different (and super fun!) topics about web development.
 
 The basic idea behind HTML is that it's organized into a tree of tags. The most basic HTML document looks like this:
+
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-	</head>
-	
-	<body>
-	</body>
+    <head> </head>
+
+    <body></body>
 </html>
 ```
 

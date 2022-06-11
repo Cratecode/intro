@@ -1,6 +1,6 @@
 {
-  "type": "lesson",
-  "id": "les_supporting_all_operations",
-  "name": "Supporting All Operations",
-  "spec": "A JavaScript application that uses the prompts library to get two numbers and an operation, and uses the specified operation on the two numbers."
+    "type": "lesson",
+    "id": "les_supporting_all_operations",
+    "name": "Supporting All Operations",
+    "spec": "A JavaScript application that uses the prompts library to get two numbers and an operation, and uses the specified operation on the two numbers."
 }

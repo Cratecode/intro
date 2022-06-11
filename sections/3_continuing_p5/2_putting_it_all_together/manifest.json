@@ -1,7 +1,7 @@
 {
-  "type": "lesson",
-  "id": "les_putting_it_all_together",
-  "extends": "p5_sketch",
-  "name": "Putting It All Together",
-  "spec": "A p5.js program that creates a basic game where a user can control an object (that has gravity) using the WASD keys."
+    "type": "lesson",
+    "id": "les_putting_it_all_together",
+    "extends": "p5_sketch",
+    "name": "Putting It All Together",
+    "spec": "A p5.js program that creates a basic game where a user can control an object (that has gravity) using the WASD keys."
 }

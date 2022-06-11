@@ -2,7 +2,15 @@
     "type": "unit",
     "id": "main_intro",
     "name": "Introduction to Computer Science",
-    "upload": ["sections/0_intro_to_cratecode", "sections/1_intro_to_cs", "sections/2_intro_to_p5", "sections/3_continuing_p5", "sections/3_console_applications", "sections/4_making_websites", "sections/5_backend_websites"],
+    "upload": [
+        "sections/0_intro_to_cratecode",
+        "sections/1_intro_to_cs",
+        "sections/2_intro_to_p5",
+        "sections/3_continuing_p5",
+        "sections/3_console_applications",
+        "sections/4_making_websites",
+        "sections/5_backend_websites"
+    ],
     "templates": "templates",
     "lessons": {
         "intro_to_cratecode": {
@@ -20,13 +28,13 @@
         "console_applications": {
             "next": ["making_websites"]
         },
-		"making_websites": {
-			"next": ["backend_websites"]
-		},
-		"backend_websites": {
-			"next": [],
-			"previous": ["making_websites", "console_applications"],
+        "making_websites": {
+            "next": ["backend_websites"]
+        },
+        "backend_websites": {
+            "next": [],
+            "previous": ["making_websites", "console_applications"],
             "requireAll": true
-		}
+        }
     }
 }

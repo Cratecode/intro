@@ -1,24 +1,30 @@
 {
-  "__comment": "This is a unit that introduces students to p5.js and gives them a general feel for working with it.",
-  "type": "unit",
-  "id": "intro_to_p5",
-  "name": "Intro to p5.js",
-  "upload": ["0_what_is_p5", "1_drawing_basic_shapes", "2_getting_complex", "3_using_constants", "4_getting_things_moving"],
-  "lessons": {
-    "les_what_is_p5": {
-      "next": ["les_drawing_basic_shapes"]
-    },
-    "les_drawing_basic_shapes": {
-      "next": ["les_getting_complex"]
-    },
-    "les_getting_complex": {
-      "next": ["les_getting_complex"]
-    },
-    "les_using_constants": {
-      "next": ["les_getting_things_moving"]
-    },
-    "les_getting_things_moving": {
-      "next": []
+    "__comment": "This is a unit that introduces students to p5.js and gives them a general feel for working with it.",
+    "type": "unit",
+    "id": "intro_to_p5",
+    "name": "Intro to p5.js",
+    "upload": [
+        "0_what_is_p5",
+        "1_drawing_basic_shapes",
+        "2_getting_complex",
+        "3_using_constants",
+        "4_getting_things_moving"
+    ],
+    "lessons": {
+        "les_what_is_p5": {
+            "next": ["les_drawing_basic_shapes"]
+        },
+        "les_drawing_basic_shapes": {
+            "next": ["les_getting_complex"]
+        },
+        "les_getting_complex": {
+            "next": ["les_getting_complex"]
+        },
+        "les_using_constants": {
+            "next": ["les_getting_things_moving"]
+        },
+        "les_getting_things_moving": {
+            "next": []
+        }
     }
-  }
 }

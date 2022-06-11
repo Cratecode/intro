@@ -13,7 +13,7 @@ let counter = 0;
 app.get("/count", (req, res) => {
     // req has info about the request (who sent it, etc).
     // res lets us respond to the request.
-    
+
     // We send status code 200 (which means that the request was successful), then send the counter as our data. counter++ means add 1 to counter and return the old value of counter.
     res.status(200).send(counter++);
 });

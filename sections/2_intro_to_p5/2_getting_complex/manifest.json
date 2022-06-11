@@ -1,7 +1,7 @@
 {
-  "type": "lesson",
-  "id": "les_getting_complex",
-  "extends": "p5_sketch",
-  "name": "Getting Complex",
-  "spec": "A p5.js program that draws 5 ellipses, one large one and four at the corners of the larger one, with half the width and height of it."
+    "type": "lesson",
+    "id": "les_getting_complex",
+    "extends": "p5_sketch",
+    "name": "Getting Complex",
+    "spec": "A p5.js program that draws 5 ellipses, one large one and four at the corners of the larger one, with half the width and height of it."
 }

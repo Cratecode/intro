@@ -1,4 +1,5 @@
 # Upgrading our Calculator
+
 Adding two numbers together is great, but it isn't very useful if we always add the same two numbers. Let's make it more useful by letting the user choose which numbers to add.
 
 This is called taking user-input, and it lets our programs interact with the user. Instead of doing the same things all the time, we can ask the person running the program for input, which changes the behavior of the program (such as adding different numbers together).
@@ -18,6 +19,7 @@ const prompts = require("prompts");
 `require` is a special function which lets us access installed libraries in our program. After that, we put the library inside of a variable called `prompts`, which we can later use to actually use the library. We could call the variable name anything we want (although its more clear to someone reading the code if we use the library's name), but the name inside of the quotes has to be `prompts`, because that's the name of the library.
 
 Now, we have our library inside of the program, but how do we actually use it? The best way to figure out how a library works is to look at its examples and documentation, which in this case can be found at [https://www.npmjs.com/package/prompts](https://www.npmjs.com/package/prompts). If you scroll down a bit, you should see something that looks a bit like this (I've removed a few things that we don't need to use right now):
+
 ```js
 const prompts = require("prompts");
 
