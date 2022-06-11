@@ -18,20 +18,22 @@
             "requires": ["intro_to_cs"]
         },
         "continuing_p5": {
-            "next": [],
+            "next": ["making_websites"],
             "requires": ["intro_to_p5"]
         },
         "console_applications": {
-            "next": [],
+            "next": ["making_websites"],
             "requires": ["intro_to_p5"]
         },
 		"making_websites": {
 			"next": ["backend_websites"],
-			"requires": []
+			"requires": ["continuing_p5", "console_applications"],
+            "requireAll": false
 		},
 		"backend_websites": {
 			"next": [],
-			"requires": ["making_websites", "console_applications"]
+			"requires": ["making_websites", "console_applications"],
+            "requireAll": true
 		}
     }
 }
