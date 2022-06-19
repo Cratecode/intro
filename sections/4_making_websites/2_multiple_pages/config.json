@@ -1,0 +1,22 @@
+{
+    "root": "/user",
+    "outputView": "web",
+    "outputViews": ["web"],
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "A link should exist.",
+                "file": "user/index.html",
+                "regex": "/<a\\s+href\\s*=/g",
+                "message": "Make sure you create a Hyperlink."
+            },
+            {
+                "_comment": "We should point to login.",
+                "file": "user/index.html",
+                "regex": "/href\\s*=\\s*\"\\s*/login/g",
+                "message": "Make sure you link to the login page."
+            }
+        ]
+    }
+}

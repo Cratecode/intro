@@ -3,12 +3,15 @@
     "type": "unit",
     "id": "making_websites",
     "name": "Making Websites",
-    "upload": ["0_making_websites", "1_basic_html"],
+    "upload": ["0_making_websites", "1_basic_html", "2_multiple_pages"],
     "lessons": {
         "les_making_websites": {
             "next": ["les_basic_html"]
         },
         "les_basic_html": {
+            "next": ["les_multiple_pages"]
+        },
+        "les_multiple_pages": {
             "next": []
         }
     }
