@@ -1,0 +1,28 @@
+{
+    "root": "/user",
+    "outputView": "web",
+    "outputViews": ["web"],
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "A lookup should be done.",
+                "file": "user/index.html",
+                "regex": "/document\\s*\\.\\s*getElementById/g",
+                "message": "Make sure you get the paragraph (use document.getElementById)."
+            },
+            {
+                "_comment": "The innerHtml should be set.",
+                "file": "user/index.html",
+                "regex": "/innerHtml/g",
+                "message": "Make sure you set the paragraph text (use .innerHtml)."
+            },
+            {
+                "_comment": "The counter should increment.",
+                "file": "user/index.html",
+                "regex": "/++|+=\\s*+|+\\s*1/g",
+                "message": "Make sure you add one to the counter each time the button is pressed."
+            }
+        ]
+    }
+}

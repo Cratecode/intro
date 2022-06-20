@@ -1,0 +1,7 @@
+{
+    "type": "lesson",
+    "id": "les_using_javascript",
+    "extends": "html_server",
+    "name": "Using JavaScript",
+    "spec": "An HTML document which updates a paragraph to count the number of times a user has pressed a button."
+}
