@@ -1,0 +1,22 @@
+{
+    "root": "/",
+    "outputView": "console",
+    "outputViews": ["console"],
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "The arg should have a type.",
+                "file": "src/index.ts",
+                "regex": "/str\\s*:\\s*string/g",
+                "message": "Make sure you give str a type."
+            },
+            {
+                "_comment": "The function should have a type.",
+                "file": "src/index.ts",
+                "regex": "/)\\s*:\\s*string/g",
+                "message": "Make sure you give uppercaseFirstCharacter a type."
+            }
+        ]
+    }
+}

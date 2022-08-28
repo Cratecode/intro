@@ -9,7 +9,8 @@
         "sections/3_continuing_p5",
         "sections/3_console_applications",
         "sections/4_making_websites",
-        "sections/5_backend_websites"
+        "sections/5_backend_websites",
+        "sections/6_typescript"
     ],
     "templates": "templates",
     "lessons": {
@@ -32,9 +33,12 @@
             "next": ["backend_websites"]
         },
         "backend_websites": {
-            "next": [],
+            "next": ["typescript"],
             "previous": ["making_websites", "console_applications"],
             "requireAll": true
+        },
+        "typescript": {
+            "next": []
         }
     }
 }

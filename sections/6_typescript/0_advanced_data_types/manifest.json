@@ -1,0 +1,7 @@
+{
+    "type": "lesson",
+    "id": "les_advanced_data_types",
+    "extends": "typescript",
+    "name": "Advanced Data Types",
+    "spec": "A TypeScript program with a function that uppercases the first character in a string."
+}

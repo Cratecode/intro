@@ -1,0 +1,1 @@
+throw new Error("Default index.js should not be used!");
