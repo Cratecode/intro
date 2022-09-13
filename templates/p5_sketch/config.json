@@ -1,0 +1,15 @@
+{
+  "run": {
+    "stop": {
+      "onStart": true
+    },
+    "command": {
+      "onStart": true
+    },
+    "webviewUpdate": {
+      "onStart": true,
+      "onChange": true
+    },
+    "hideButton": true
+  }
+}

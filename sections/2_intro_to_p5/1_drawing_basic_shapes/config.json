@@ -3,7 +3,6 @@
     "outputView": "web",
     "outputViews": ["web"],
     "validator": {
-        "requireRun": true,
         "validate": [
             {
                 "_comment": "The background function should be used.",
