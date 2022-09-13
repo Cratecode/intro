@@ -10,6 +10,6 @@ childProcess.exec(
 const app = express();
 
 app.use("/api", createProxyMiddleware({ target: "http://localhost:8000" }));
-app.get("/", express.static(path.join(__dirname, "user/html")));
+app.use("/", express.static(path.join(__dirname, "user/html")));
 
 app.listen(3000);

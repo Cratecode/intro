@@ -1,11 +1,8 @@
 const express = require("express");
-const fs = require("fs");
+const path = require("path");
 
 const app = express();
 
-const getFile = (file) => (req, res) =>
-    res.send(fs.readFileSync(file, "utf-8"));
-app.get("/", getFile("index.html"));
-app.get("/sketch.js", getFile("user/sketch.js"));
+app.use("/", express.static(__dirname), express.static(path.join(__dirname, "user")));
 
 app.listen(3000);
