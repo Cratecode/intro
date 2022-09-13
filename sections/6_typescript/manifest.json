@@ -1,11 +1,11 @@
 {
-    "__comment": "This is a unit that deals with website backends.",
+    "__comment": "This is a unit that deals with introducing TypeScript.",
     "type": "unit",
-    "id": "backend_websites",
-    "name": "Backend Websites",
-    "upload": ["0_what_is_backend"],
+    "id": "typescript",
+    "name": "TypeScript",
+    "upload": ["0_advanced_data_types"],
     "lessons": {
-        "les_what_is_backend": {
+        "les_advanced_data_types": {
             "next": []
         }
     }
