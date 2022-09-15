@@ -3,5 +3,6 @@
     "id": "les_basic_html",
     "extends": "html_server",
     "name": "Basic HTML",
-    "spec": "An HTML document which explains something using headings, paragraphs, and styling tags."
+    "spec": "An HTML document which explains something using headings, paragraphs, and styling tags.",
+    "class": "activity"
 }

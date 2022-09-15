@@ -2,5 +2,6 @@
     "type": "lesson",
     "id": "les_palindromes",
     "name": "Palindromes",
-    "spec": "A JavaScript function which checks if a string is a palindrome."
+    "spec": "A JavaScript function which checks if a string is a palindrome.",
+    "class": "activity"
 }

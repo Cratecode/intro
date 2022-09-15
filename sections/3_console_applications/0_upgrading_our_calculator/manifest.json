@@ -2,5 +2,6 @@
     "type": "lesson",
     "id": "les_upgrading_our_calculator",
     "name": "Upgrading our Calculator",
-    "spec": "A JavaScript application that uses the prompts library to get two numbers and adds them together."
+    "spec": "A JavaScript application that uses the prompts library to get two numbers and adds them together.",
+    "class": "activity"
 }

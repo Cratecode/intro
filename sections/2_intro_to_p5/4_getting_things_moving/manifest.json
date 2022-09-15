@@ -3,5 +3,6 @@
     "id": "les_getting_things_moving",
     "extends": "p5_sketch",
     "name": "Getting Things Moving",
-    "spec": "A p5.js program that uses variables to move an object using variables down the screen on each draw loop."
+    "spec": "A p5.js program that uses variables to move an object using variables down the screen on each draw loop.",
+    "class": "activity"
 }

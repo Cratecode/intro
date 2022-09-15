@@ -3,5 +3,6 @@
     "id": "les_making_websites",
     "extends": "html_server",
     "name": "Making Websites",
-    "spec": "An HTML document which demonstrates the basics of HTML."
+    "spec": "An HTML document which demonstrates the basics of HTML.",
+    "class": "tutorial"
 }

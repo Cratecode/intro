@@ -3,5 +3,6 @@
     "id": "les_taking_user_input",
     "extends": "p5_sketch",
     "name": "Taking User Input",
-    "spec": "A p5.js program that allows a user to move around an object on the screen using the WASD keys."
+    "spec": "A p5.js program that allows a user to move around an object on the screen using the WASD keys.",
+    "class": "tutorial"
 }

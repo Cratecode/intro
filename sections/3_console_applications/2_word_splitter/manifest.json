@@ -2,5 +2,6 @@
     "type": "lesson",
     "id": "les_word_splitter",
     "name": "Word Splitter",
-    "spec": "A JavaScript application that takes in a string as input and outputs each word in the string as a separate line."
+    "spec": "A JavaScript application that takes in a string as input and outputs each word in the string as a separate line.",
+    "class": "activity"
 }

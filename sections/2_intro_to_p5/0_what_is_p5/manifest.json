@@ -3,5 +3,6 @@
     "id": "les_what_is_p5",
     "extends": "p5_sketch",
     "name": "Making Art with Code",
-    "spec": "A p5.js program that draws circles under the user's mouse."
+    "spec": "A p5.js program that draws circles under the user's mouse.",
+    "class": "tutorial"
 }
