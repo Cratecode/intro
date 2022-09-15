@@ -2,5 +2,5 @@
     "type": "lesson",
     "id": "les_data_types",
     "name": "Data Types",
-    "spec": null
+    "spec": "A JavaScript program that demonstrates how different data types work."
 }

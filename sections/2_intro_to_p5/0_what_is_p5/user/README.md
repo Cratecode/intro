@@ -4,4 +4,4 @@ Hopefully you now understand some of the basic ideas behind computer programming
 
 p5.js is also capable of making little games, which we might get a small look at in this section, but if you're interested, the next p5.js sections will definitely use it.
 
-You probably noticed that the console disappeared. Don't worry, it's now a little p5.js window. Try pressing the Run button to see what it does, and take a little peek at sketch.js while you're at it.
+You probably noticed that the console disappeared. Don't worry, it's now a little p5.js window. Try seeing what it does, and take a little peek at sketch.js while you're at it.

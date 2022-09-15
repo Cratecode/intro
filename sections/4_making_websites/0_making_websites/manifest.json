@@ -3,5 +3,5 @@
     "id": "les_making_websites",
     "extends": "html_server",
     "name": "Making Websites",
-    "spec": null
+    "spec": "An HTML document which demonstrates the basics of HTML."
 }

@@ -3,5 +3,5 @@
     "id": "les_what_is_backend",
     "extends": "backend_server",
     "name": "What is Backend?",
-    "spec": null
+    "spec": "A frontend and backend that explain the basics of backend web development through a simple counter API."
 }

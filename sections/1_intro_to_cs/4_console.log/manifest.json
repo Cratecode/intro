@@ -2,5 +2,5 @@
     "type": "lesson",
     "id": "les_console_log",
     "name": "console.log",
-    "spec": null
+    "spec": "A JavaScript program that demonstrates how console.log can be used."
 }
