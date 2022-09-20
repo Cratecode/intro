@@ -23,9 +23,9 @@ const second = splits[1];
 // as text (called strings) instead of numbers. This
 // is a problem because we can't add or subtract text.
 
-// To turn it into a number, we'll use parseInt().
-const firstNum = parseInt(first);
-const secondNum = parseInt(second);
+// To turn it into a number, we'll use Number().
+const firstNum = Number(first);
+const secondNum = Number(second);
 
 // Now that that's done, we can add them together.
 // In Javascript, all we have to do is use the "+" operator.

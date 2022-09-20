@@ -28,4 +28,4 @@ Almost anything can be converted to a string using the `toString()` method. For 
 
 ## String -> Number
 
-To convert a string to a number, we can use the `parseInt()` and `parseFloat()` methods. The difference between them is that `parseInt()` parses something as an integer (without a decimal point), while `parseFloat()` parses something with a decimal point. Check out the code example to see the difference more highlighted.
+To convert a string to a number, we can use the `Number()` methods. Check out the code example to see the difference more highlighted.

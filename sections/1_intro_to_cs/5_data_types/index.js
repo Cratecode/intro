@@ -21,22 +21,13 @@ console.log("string + boolean:", string + boolean);
 // to the end of the string.
 
 // Let's try converting to avoid that.
-const numericString = "42";
+const numericString = "42.1";
 
 // Let's add 2 to numericString.
 console.log("numericString:", numericString + 2);
 
 // To get our desired result, we need to first convert our string to a number:
-const numericStringAsNumber = parseInt(numericString);
+const numericStringAsNumber = Number(numericString);
 
 // Now let's try.
 console.log("numericStringAsNumber:", numericStringAsNumber + 2);
-
-// Nice. What about decimal numbers?
-const decimalNumber = "42.5";
-
-console.log("parseInt:", parseInt(decimalNumber) + 2);
-
-// That chopped off our decimal. In order to parse a number with a decimal,
-// we'll need to use parseFloat.
-console.log("parseFloat:", parseFloat(decimalNumber) + 2);
