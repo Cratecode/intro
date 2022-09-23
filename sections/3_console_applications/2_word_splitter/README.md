@@ -33,6 +33,7 @@ for (let i = 0; i < numbers.length; i++) {
  * 3
  */
 ```
+(`i++` means add 1 to `i`, we can also do `i--` to subtract 1 from i, `i+=2` to add 2 to i, or `i-=2` to subtract 2 from i)
 
 The last thing we're going to look at is the `split` method. This method lets us take a string (a piece of text) and split it up into different parts based on a separator. For example, if I wanted to split up the string "hello world" into an array of "hello" and "world", I could do this:
 

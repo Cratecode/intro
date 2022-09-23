@@ -7,6 +7,7 @@
         "0_upgrading_our_calculator",
         "1_supporting_all_operations",
         "2_word_splitter",
+        "2.5_reverse_word_splitter",
         "3_palindromes"
     ],
     "lessons": {
@@ -17,6 +18,9 @@
             "next": ["les_word_splitter"]
         },
         "les_word_splitter": {
+            "next": ["les_reverse_word_splitter", "les_palindromes"]
+        },
+        "les_reverse_word_splitter": {
             "next": ["les_palindromes"]
         },
         "les_palindromes": {

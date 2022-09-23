@@ -1,0 +1,25 @@
+{
+    "validator": {
+        "requireRun": true,
+        "validate": [
+            {
+                "_comment": "A for loop should be used.",
+                "file": "index.js",
+                "regex": "/for\\s*\\(/g",
+                "message": "Make sure you use a for loop."
+            },
+            {
+                "_comment": "The split function should be used.",
+                "file": "index.js",
+                "regex": "/split\\s*\\(/g",
+                "message": "Make sure you use the split command."
+            },
+            {
+                "_comment": "The loop variable should be decremented.",
+                "file": "index.js",
+                "regex": "/--|-=/g",
+                "message": "Think about what direction you're going in. To go to the right, you add."
+            }
+        ]
+    }
+}
