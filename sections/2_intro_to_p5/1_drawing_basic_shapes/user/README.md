@@ -1,6 +1,6 @@
 # Drawing Basic Shapes
 
-Before we get started, let's get familiar with the basics of p5.js. When we want to do something with p5, we start with a `setup()` function which has some info about the canvas (also called a sketch or an image). This function is called at the start of our program. After that, the `draw()` function is called each frame (think of a still image from a movie) and changes the canvas.
+Before we get started, let's get familiar with the basics of p5.js. **All of our code is contained in a file called `sketch.js`**. Inside that file, when we want to do something with p5, we start with a `setup()` function which has some info about the canvas (also called a sketch or an image, it's basically the drawing space that we have available). This function is called at the start of our program. After that, the `draw()` function is called each frame (think of how a movie is made up of a bunch of still images, each one of those is a frame) and changes the canvas.
 
 Here was our example before:
 

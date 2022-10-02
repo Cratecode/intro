@@ -4,5 +4,6 @@
     "outputViews": ["web"],
     "validator": {
         "requireRun": true
-    }
+    },
+    "defaultFile": "user/backend/index.js"
 }

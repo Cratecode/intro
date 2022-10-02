@@ -1,7 +1,7 @@
 // Here's an example of something that prints to the console:
 console.log("Hello");
 
-// Now you try. Make something output to the console.
+// Now you try. Make something output to the console on the next line (leave the example as-is).
 
 // If you get stuck, try going back to previous
 // lessons. You can also use Google for a bit of

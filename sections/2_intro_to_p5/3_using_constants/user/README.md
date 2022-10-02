@@ -1,6 +1,6 @@
 # Using Constants
 
-What we just made works, but it isn't very flexible. Let's say that we wanted to move around the object, or scale it up or down. We'd have to re do all of our calculations by hand, which is a pretty silly thing to do when we're using a computer. Luckily, there's a pretty easy way to fix this: constants.
+What we just made works, but it isn't very flexible. Let's say that we wanted to move around the object, or scale it up or down. We'd have to redo all of our calculations by hand, which is a pretty silly thing to do when we're using a computer. Luckily, there's a pretty easy way to fix this: constants.
 
 The basic idea behind a constant is we have a "placeholder" for a number, and we use the placeholder everywhere that the number would normally go. When we change the value of the placeholder, everything that uses it changes automatically! Here's a little example:
 

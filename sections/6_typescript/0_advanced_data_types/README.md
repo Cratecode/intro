@@ -13,7 +13,7 @@ It expects that `num1` and `num2` are both numbers, but nothing's stopping us fr
 ```js
 addTwoNumbers("1", 1); // 11
 ```
-And getting strange results because of it. Even worse, we might not know what type a function returns. Maybe we use a library which doesn't exactly tell us what one of its functions returns. We could run it and look at its output, but that's a bit tedious and the mystery function could return different types. If we think it always returns one thing but it actually returns another, it can lead to bugs that can only be solved by examining the logic of your program line-by-line. For example:
+And getting strange results because of it. Even worse, we might not know what type a function returns. Maybe we use a library which doesn't exactly tell us what one of its functions returns. We could run it and look at its output, but that's a bit tedious and the mystery function could return different types. If we think it always returns one thing, but it actually returns another, it can lead to bugs that can only be solved by examining the logic of your program line-by-line. For example:
 ```js
 // Mystery function from another library that returns a prime number.
 function getNthPrime(n) {
@@ -39,7 +39,7 @@ function addTwoNumbers(num1: number, num2: number): number {
 }
 ```
 
-All we're doing here is saying that `num1` is a `number` (as is `num2`), and `addTwoNumbers` will return a `number`. Making this little change makes our code a little smarter and it will give an error if we try to put a string (or anything else that isn't a number) into `addTwoNumbers`. Now, let's see our other functions:
+All we're doing here is saying that `num1` is a `number` (as is `num2`), and `addTwoNumbers` will return a `number`. Making this little change makes our code a little smarter, and it will give an error if we try to put a string (or anything else that isn't a number) into `addTwoNumbers`. Now, let's see our other functions:
 ```ts
 // Mystery function from another library that returns a prime number.
 function getNthPrime(n: number): string {

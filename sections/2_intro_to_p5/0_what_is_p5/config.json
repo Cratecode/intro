@@ -1,5 +1,6 @@
 {
     "root": "/user",
     "outputView": "web",
-    "outputViews": ["web"]
+    "outputViews": ["web"],
+    "defaultFile": "user/sketch.js"
 }

@@ -19,8 +19,8 @@
                     res.text(),
                 );
 
-                // This piece of code gets the paragraph we made above using its ID, then sets the "innerHTML" (the stuff between the starting and closing tags, in this case, text) to the counter number.
-                document.getElementById("counter-value").innerHTML =
+                // This piece of code gets the paragraph we made above using its ID, then sets the "innerText" (the text inside an element) to the counter number.
+                document.getElementById("counter-value").innerText =
                     "Counter value: " + curNum;
             }
 

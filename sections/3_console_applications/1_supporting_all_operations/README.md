@@ -20,7 +20,7 @@ if (a === 1) {
 }
 ```
 
-Here's a little list of all of the comparison operators that you can use:
+Here's a little list of all the comparison operators that you can use:
 
 -   `===` - equals operator to check if two things are the same.
 -   `!==` - not equals operator to check if two things are different.

@@ -16,9 +16,9 @@ You only need to install a library once per-project, and you can verify that it'
 const prompts = require("prompts");
 ```
 
-`require` is a special function which lets us access installed libraries in our program. After that, we put the library inside of a variable called `prompts`, which we can later use to actually use the library. We could call the variable name anything we want (although its more clear to someone reading the code if we use the library's name), but the name inside of the quotes has to be `prompts`, because that's the name of the library.
+`require` is a special function which lets us access installed libraries in our program. After that, we put the library inside a variable called `prompts`, which we can later use to actually use the library. We could call the variable name anything we want (although it's clearer to someone reading the code if we use the library's name), but the name inside the quotes has to be `prompts`, because that's the name of the library.
 
-Now, we have our library inside of the program, but how do we actually use it? The best way to figure out how a library works is to look at its examples and documentation, which in this case can be found at [https://www.npmjs.com/package/prompts](https://www.npmjs.com/package/prompts). If you scroll down a bit, you should see something that looks a bit like this (I've removed a few things that we don't need to use right now):
+Now, we have our library inside the program, but how do we actually use it? The best way to figure out how a library works is to look at its examples and documentation, which in this case can be found at [https://www.npmjs.com/package/prompts](https://www.npmjs.com/package/prompts). If you scroll down a bit, you should see something that looks a bit like this (I've removed a few things that we don't need to use right now):
 
 ```js
 const prompts = require("prompts");
@@ -36,7 +36,7 @@ async function runProgram() {
 runProgram();
 ```
 
-Don't worry about the `async` and `await` stuff for now, we'll get to that later. Just keep in mind that you need to use `await` when using this library and that `await` needs to be inside of an `async` function, or else you'll get an error.
+Don't worry about the `async` and `await` stuff for now, we'll get to that later. Just keep in mind that you need to use `await` when using this library and that `await` needs to be inside an `async` function, or else you'll get an error.
 
 Try putting this into your program and see what happens. You should be prompted to enter a number, and then you should the number you put in get spit back out. In order to get the actual number, we need to do `response.value` instead of just `response`.
 

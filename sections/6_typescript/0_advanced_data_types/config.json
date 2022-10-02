@@ -18,5 +18,6 @@
                 "message": "Make sure you give uppercaseFirstCharacter a type."
             }
         ]
-    }
+    },
+    "defaultFile": "src/index.ts"
 }

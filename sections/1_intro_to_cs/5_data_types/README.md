@@ -2,11 +2,11 @@
 
 In programming, we have the concept of a data type. When we think about things in our head like sentences and numbers, we imagine them in fundamentally different ways. For example, a sentence can't be multiplied by 100, and a number can't be made up of different words.
 
-In programming, we also have this distinction between different things. There are many different data types, but here we'll look at the most fundamental.
+In programming, we also have this distinction between different things. There are many data types, but here we'll look at the most fundamental.
 
 ## Numbers
 
-Numbers are, well, numbers. They can be added to, subtracted from, multiplied, and divided. If I have a program that runs `1 + 2`, it will give me `3`. In Javascript, numbers are written as numbers—`1` is a number, and so is `57.87`, and even `-95.01`, but there are some important rules for how numbers work (in Javascript). One important thing to keep in mind is that numbers cannot contain commas, so `1,000,000` isn't a valid number (however, you can use `_`, so `1_000_000` is the same as `1000000`). Finally, numbers cannot have functions ran directly on them. We'll get into this more later, but keep in mind that `10.toString()` is not valid, while `(10).toString()` is.
+Numbers are, well, numbers. They can be added to, subtracted from, multiplied, and divided. If I have a program that runs `1 + 2`, it will give me `3`. In Javascript, numbers are written as numbers—`1` is a number, and so is `57.87`, and even `-95.01`, but there are some important rules for how numbers work (in Javascript). One important thing to keep in mind is that numbers cannot contain commas, so `1,000,000` isn't a valid number (however, you can use `_`, so `1_000_000` is the same as `1000000`). Finally, number literals (a literal is a number written in our code, so `10` is a literal, while `(10)` and `a` (where `a` is `const a = 9;`) are not) cannot have functions ran directly on them. We'll get into this more later, but keep in mind that `10.toString()` is not valid, while `(10).toString()` is.
 
 ## Strings
 

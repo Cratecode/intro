@@ -12,6 +12,6 @@ Here's some tips on jumping:
 -   Make sure the player is on the ground before letting them jump (use if statements!).
 -   For smooth jumping (an extra challenge, so you can just add to the user's position when they jump if you'd like), you can store a "jump value". For example, you could set this value to 10 when the user pressed the jump button, then add the jump value to the user's position and subtract 1 from the value each time that the draw function is run.
 
-Other than those requirements, you can customize it however you like. You can add some objects to the scene (maybe a grassy ground and a little sun in the sky), change up how some of the mechanics work, and anything else you can think of. Good luck!
+Other than those requirements, you can customize it however you like. You can add some objects to the scene (maybe a grassy ground and a little sun in the sky), change up how some mechanics work, and anything else you can think of. Good luck!
 
 [p5.js cheatsheet](https://bmoren.github.io/p5js-cheat-sheet/)

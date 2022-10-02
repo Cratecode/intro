@@ -1,6 +1,6 @@
 # Basic HTML
 
-Let's take a look at some basic HTML. First, setup your HTML document. Remember, start with `<!DOCTYPE html>`, then create an `html` element with a `head` and `body` element inside of it.
+Let's take a look at some basic HTML. First, set up your HTML document. Remember, start with `<!DOCTYPE html>`, then create an `html` element with a `head` and `body` element inside it.
 
 A lot of HTML deals with text, so we'll start off with that. Here are a few of the most basic HTML text elements:
 
@@ -23,7 +23,7 @@ Paragraphs are another basic text element in HTML. They represent, well, paragra
 
 ## Text Styling
 
-HTML includes some basic elements to do text styling (bold, small, strikethrough, etc). These should be inside of another text element, such as a `p`. Here's a little list (although there are many, many more that aren't included):
+HTML includes some basic elements to do text styling (bold, small, strikethrough, etc). These should be inside another text element, such as a `p`. Here's a little list (although there are many, many more that aren't included):
 
 -   `i` - will italicize text.
 -   `s` - renders a line (strikethrough) inside of text.
