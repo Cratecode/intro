@@ -35,7 +35,7 @@ Another use of methods is that many methods are built-in by the language. This m
 
 ### Comments
 
-Comments are another integral part of code. Comments are small pieces of text means to be read by people, in order to tell them what exactly the code is doing, and why it's doing that. Comments usually start with `//`. If something might seem unclear, comment it!
+Comments are another integral part of code. Comments are small pieces of text meant to be read by people, in order to tell them what exactly the code is doing, and why it's doing that. Comments usually start with `//`. If something might seem unclear, comment it!
 
 ## Constants
 
