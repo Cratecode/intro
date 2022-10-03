@@ -1,6 +1,6 @@
 {
     "validator": {
-        "requireRun": true,
-        "defaultFile": "index.js"
-    }
+        "requireRun": true
+    },
+    "defaultFile": "index.js"
 }
