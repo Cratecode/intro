@@ -15,7 +15,8 @@ app.get("/count", (req, res) => {
     // res lets us respond to the request.
 
     // We send status code 200 (which means that the request was successful), then send the counter as our data. counter++ means add 1 to counter and return the old value of counter.
-    res.status(200).send(counter++);
+    // We need to turn it into a string or else we'll receive an error.
+    res.status(200).send((counter++).toString());
 });
 
 // Start the web server on port 8000. Don't change this number, since it's used by Cratecode to let you access the server.
