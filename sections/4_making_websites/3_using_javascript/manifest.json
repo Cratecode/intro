@@ -3,6 +3,7 @@
     "id": "les_using_javascript",
     "extends": "html_server",
     "name": "Using JavaScript",
+    "unit" : "main_intro",
     "spec": "An HTML document which updates a paragraph to count the number of times a user has pressed a button.",
     "class": "activity"
 }

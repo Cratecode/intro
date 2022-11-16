@@ -3,6 +3,7 @@
     "id": "les_drawing_basic_shapes",
     "extends": "p5_sketch",
     "name": "Drawing Basic Shapes",
+    "unit" : "main_intro",
     "spec": "A p5.js program that draws a background and an ellipse.",
     "class": "tutorial"
 }

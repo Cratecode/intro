@@ -3,6 +3,7 @@
     "id": "les_multiple_pages",
     "extends": "html_server",
     "name": "Multiple Pages",
+    "unit" : "main_intro",
     "spec": "An HTML document that links to another document.",
     "class": "activity"
 }

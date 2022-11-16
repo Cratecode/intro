@@ -3,6 +3,7 @@
     "id": "les_making_things_stop",
     "extends": "p5_sketch",
     "name": "Making Things Stop",
+    "unit" : "main_intro",
     "spec": "A p5.js program that moves an object to the bottom of the screen (without going outside of the screen).",
     "class": "tutorial"
 }

@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_basic_calculator",
     "name": "Building a Basic Calculator",
+    "unit" : "main_intro",
     "spec": "A JavaScript program takes two numbers as string constants, num1 and num2, converts them to numbers and adds them together, then prints the result to the console.",
     "class": "activity"
 }

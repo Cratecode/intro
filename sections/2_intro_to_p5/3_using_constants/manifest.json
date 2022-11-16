@@ -3,6 +3,7 @@
     "id": "les_using_constants",
     "extends": "p5_sketch",
     "name": "Using Constants",
+    "unit" : "main_intro",
     "spec": "A p5.js program that uses constants to draw a large rectangle with four smaller rectangles at its corners, with half its width and height.",
     "class": "activity"
 }

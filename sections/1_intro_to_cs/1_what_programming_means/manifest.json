@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_what_programming_means",
     "name": "What Programming Means",
+    "unit" : "main_intro",
     "spec": null,
     "class": "tutorial"
 }

@@ -3,6 +3,7 @@
     "id": "les_what_is_backend",
     "extends": "backend_server",
     "name": "What is Backend?",
+    "unit" : "main_intro",
     "spec": "A frontend and backend that explain the basics of backend web development through a simple counter API.",
     "class": "tutorial"
 }

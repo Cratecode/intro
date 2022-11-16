@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_basic_concepts",
     "name": "Basic Concepts",
+    "unit" : "main_intro",
     "spec": "A JavaScript program which demonstrates some basic programming concepts.",
     "class": "tutorial"
 }

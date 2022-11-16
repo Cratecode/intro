@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_reverse_word_splitter",
     "name": "Reverse Word Splitter",
+    "unit" : "main_intro",
     "spec": "A JavaScript application that takes in a string as input and outputs each word in the string in reverse order as a separate line.",
     "class": "challenge"
 }

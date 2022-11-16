@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_palindromes",
     "name": "Palindromes",
+    "unit" : "main_intro",
     "spec": "A JavaScript function which checks if a string is a palindrome.",
     "class": "activity"
 }
