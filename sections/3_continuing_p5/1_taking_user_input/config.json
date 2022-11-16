@@ -7,7 +7,7 @@
             {
                 "_comment": "The keyPressed function should exist.",
                 "file": "user/sketch.js",
-                "regex": "/function\\s+onKeyPressed/g",
+                "regex": "/function\\s+keyPressed/g",
                 "message": "Make sure you have a keyPressed function."
             }
         ]
