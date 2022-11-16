@@ -6,7 +6,7 @@ eval(fs.readFileSync("user/index.js", "utf8"));
 
 async function runProgram() {
     const word = await prompts({
-        type: "string",
+        type: "text",
         name: "value",
         message: "What's your potential palindrome?",
     });
@@ -16,6 +16,8 @@ async function runProgram() {
             isPalindrome(word.value) ? "a" : "not a"
         } palindrome.`,
     );
+
+    console.log("\nTesting palindromes...\n");
 
     const palindromes = [
         ["racecar", true],
