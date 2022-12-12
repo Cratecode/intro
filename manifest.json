@@ -10,6 +10,7 @@
         "sections/3_console_applications",
         "sections/4_making_websites",
         "sections/5_backend_websites",
+        "sections/5_using_react",
         "sections/6_typescript"
     ],
     "templates": "templates",
@@ -30,12 +31,15 @@
             "next": ["making_websites"]
         },
         "making_websites": {
-            "next": ["backend_websites"]
+            "next": ["backend_websites", "using_react"]
         },
         "backend_websites": {
             "next": ["typescript"],
             "previous": ["making_websites", "console_applications"],
             "requireAll": true
+        },
+        "using_react": {
+            "next": ["typescript"]
         },
         "typescript": {
             "next": []
