@@ -1,0 +1,12 @@
+{
+    "__comment": "This is a unit that introduces students to ideas behind react websites.",
+    "type": "unit",
+    "id": "using_react",
+    "name": "Using React",
+    "upload": ["0_web_frameworks_react"],
+    "lessons": {
+        "les_web_frameworks_react": {
+            "next": []
+        }
+    }
+}
