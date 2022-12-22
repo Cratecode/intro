@@ -1,0 +1,9 @@
+{
+    "type": "lesson",
+    "id": "les_fullstack_frameworks_next",
+    "extends": "next_server_ts",
+    "name": "Full-stack Web Frameworks (Next.JS)",
+    "unit" : "main_intro",
+    "spec": "A Next.JS webapp with a button that updates its value to the number of times that it is pressed.",
+    "class": "tutorial"
+}

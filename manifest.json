@@ -11,7 +11,8 @@
         "sections/4_making_websites",
         "sections/5_backend_websites",
         "sections/5_using_react",
-        "sections/6_typescript"
+        "sections/6_typescript",
+        "sections/7_next_js"
     ],
     "templates": "templates",
     "lessons": {
@@ -39,10 +40,15 @@
             "requireAll": true
         },
         "using_react": {
-            "next": ["typescript"]
+            "next": ["typescript", "next_js"]
         },
         "typescript": {
-            "next": []
+            "next": ["next_js"]
+        },
+        "next_js": {
+            "next": [],
+            "previous": ["using_react", "typescript"],
+            "requireAll": true
         }
     }
 }
