@@ -2,7 +2,7 @@
     "type": "lesson",
     "id": "les_web_frameworks_react",
     "extends": "next_server",
-    "name": "Web Frameworks",
+    "name": "Web Frameworks (React)",
     "unit" : "main_intro",
     "spec": "A React webpage with a button that updates its value to the number of times that it is pressed.",
     "class": "tutorial"
