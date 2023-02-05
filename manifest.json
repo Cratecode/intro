@@ -10,7 +10,9 @@
         "sections/3_console_applications",
         "sections/4_making_websites",
         "sections/5_backend_websites",
-        "sections/6_typescript"
+        "sections/5_using_react",
+        "sections/6_typescript",
+        "sections/7_next_js"
     ],
     "templates": "templates",
     "lessons": {
@@ -30,15 +32,23 @@
             "next": ["making_websites"]
         },
         "making_websites": {
-            "next": ["backend_websites"]
+            "next": ["backend_websites", "using_react"]
         },
         "backend_websites": {
             "next": ["typescript"],
             "previous": ["making_websites", "console_applications"],
             "requireAll": true
         },
+        "using_react": {
+            "next": ["typescript", "next_js"]
+        },
         "typescript": {
-            "next": []
+            "next": ["next_js"]
+        },
+        "next_js": {
+            "next": [],
+            "previous": ["using_react", "typescript"],
+            "requireAll": true
         }
     }
 }

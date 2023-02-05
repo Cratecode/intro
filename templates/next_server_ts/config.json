@@ -1,0 +1,15 @@
+{
+  "run": {
+    "stop": {
+      "onStart": true
+    },
+    "command": {
+      "value": "yarn --cwd ~/project dev",
+      "onStart": true
+    },
+    "webviewUpdate": {
+      "onStart": true
+    },
+    "hideButton": true
+  }
+}
