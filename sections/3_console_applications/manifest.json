@@ -8,7 +8,9 @@
         "1_supporting_all_operations",
         "2_word_splitter",
         "2.5_reverse_word_splitter",
-        "3_palindromes"
+        "3_palindromes",
+        "4_file_io_read",
+        "5_reading_data_files"
     ],
     "lessons": {
         "les_upgrading_our_calculator": {
@@ -24,6 +26,12 @@
             "next": ["les_palindromes"]
         },
         "les_palindromes": {
+            "next": ["les_file_io_read"]
+        },
+        "les_file_io_read": {
+            "next": ["les_reading_data_files"]
+        },
+        "les_reading_data_files": {
             "next": []
         }
     }
