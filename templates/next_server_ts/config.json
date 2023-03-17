@@ -1,15 +1,17 @@
 {
-  "run": {
-    "stop": {
-      "onStart": true
-    },
-    "command": {
-      "value": "yarn --cwd ~/project dev",
-      "onStart": true
-    },
-    "webviewUpdate": {
-      "onStart": true
-    },
-    "hideButton": true
-  }
+    "outputView": "web",
+    "outputViews": ["web", "console"],
+    "run": {
+        "stop": {
+            "onStart": true
+        },
+        "command": {
+            "value": "yarn --cwd ~/project dev",
+            "onStart": true
+        },
+        "webviewUpdate": {
+            "onStart": true
+        },
+        "hideButton": true
+    }
 }

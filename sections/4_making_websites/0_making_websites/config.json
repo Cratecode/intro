@@ -1,6 +1,3 @@
 {
-    "root": "/user",
-    "outputView": "web",
-    "outputViews": ["web"],
     "defaultFile": "user/index.html"
 }
