@@ -3,6 +3,6 @@
     "id": "les_your_first_program",
     "name": "Your First Program",
     "unit" : "main_intro",
-    "spec": "A JavaScript program that prints a message to the console.",
+    "spec": "A NodeJS program that prints a message to the console.",
     "class": "activity"
 }

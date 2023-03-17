@@ -3,6 +3,6 @@
     "id": "les_reading_data_files",
     "name": "Reading Data Files",
     "unit" : "main_intro",
-    "spec": "A JavaScript application that reads the contents of data.txt (a file where every line is a number), turns it into an array of numbers, and prints out that array.",
+    "spec": "A NodeJS application that reads the contents of data.txt (a file where every line is a number), turns it into an array of numbers, and prints out that array.",
     "class": "tutorial"
 }

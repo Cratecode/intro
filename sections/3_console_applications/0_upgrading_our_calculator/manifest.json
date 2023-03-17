@@ -3,6 +3,6 @@
     "id": "les_upgrading_our_calculator",
     "name": "Upgrading our Calculator",
     "unit" : "main_intro",
-    "spec": "A JavaScript application that uses the prompts library to get two numbers and adds them together.",
+    "spec": "A NodeJS application that uses the prompts library to get two numbers and adds them together.",
     "class": "activity"
 }

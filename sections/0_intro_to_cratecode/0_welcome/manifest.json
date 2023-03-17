@@ -3,6 +3,6 @@
     "id": "les_welcome",
     "name": "Welcome to Cratecode!",
     "unit" : "main_intro",
-    "spec": "A JavaScript program that writes some text to the console.",
+    "spec": "A NodeJS program that writes some text to the console.",
     "class": "tutorial"
 }

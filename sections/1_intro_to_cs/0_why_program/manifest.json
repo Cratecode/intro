@@ -3,6 +3,6 @@
     "id": "les_why_program",
     "name": "Why Program?",
     "unit" : "main_intro",
-    "spec": "A JavaScript program that takes an addition expression as a string and writes the result to the console.",
+    "spec": "A NodeJS program that takes an addition expression as a string and writes the result to the console.",
     "class": "tutorial"
 }

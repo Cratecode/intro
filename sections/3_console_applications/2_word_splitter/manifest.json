@@ -3,6 +3,6 @@
     "id": "les_word_splitter",
     "name": "Word Splitter",
     "unit" : "main_intro",
-    "spec": "A JavaScript application that takes in a string as input and outputs each word in the string as a separate line.",
+    "spec": "A NodeJS application that takes in a string as input and outputs each word in the string as a separate line.",
     "class": "activity"
 }

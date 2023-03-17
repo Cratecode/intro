@@ -3,6 +3,6 @@
     "id": "les_file_io_read",
     "name": "File I/O (Reading)",
     "unit" : "main_intro",
-    "spec": "A JavaScript application that reads the contents of data.txt, then prints it to the console.",
+    "spec": "A NodeJS application that reads the contents of data.txt, then prints it to the console.",
     "class": "tutorial"
 }

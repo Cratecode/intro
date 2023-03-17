@@ -7,8 +7,9 @@ This is called taking user-input, and it lets our programs interact with the use
 Before we get started, we need to understand a pretty important concept in programming: libraries. Libraries are basically pieces of code that someone else wrote, which we can incorporate into our programs. They help us to avoid re-writing code when someone else has already written the same thing. We'll be using the `prompts` library, which helps us get input from the user. Before we can use a library, we need to install it. In order to do this, type the following command in your terminal:
 
 ```shell
-yarn add prompts
+pnpm add prompts
 ```
+(other package managers are available, but pnpm uses the least disk space)
 
 You only need to install a library once per-project, and you can verify that it's installed by looking at the `package.json` file. The next thing we need to do is to import the library into our program. We can do this by adding the following line to our program:
 

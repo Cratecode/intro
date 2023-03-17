@@ -3,6 +3,6 @@
     "id": "les_data_types",
     "name": "Data Types",
     "unit" : "main_intro",
-    "spec": "A JavaScript program that demonstrates how different data types work.",
+    "spec": "A NodeJS program that demonstrates how different data types work.",
     "class": "tutorial"
 }
