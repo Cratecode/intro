@@ -6,7 +6,7 @@
             "onStart": true
         },
         "command": {
-            "value": "yarn --cwd ~/project dev",
+            "value": "yarn --cwd ~/project dev\n",
             "onStart": true
         },
         "webviewUpdate": {
