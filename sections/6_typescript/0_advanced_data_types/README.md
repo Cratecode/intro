@@ -60,12 +60,12 @@ And instead of creating a bug that wastes hours of our time, we just get an erro
 
 All of this "typing" is handled by a language called TypeScript (you can think of it as a more advanced JavaScript). Unlike JavaScript, which we can simply run, TypeScript needs to be compiled. This means that the TypeScript compiler will look at our TypeScript code, look for errors in our code (like the example above), and if there aren't, convert our code into JavaScript. It makes running our code a bit more complicated (as in one command becomes two), but I promise it's worth it for the time saved debugging and the assurance that functions really work the way you think they do.
 
-To install TypeScript, we need to run `yarn add --dev typescript @types/node` in our console. The `--dev` means that this is a "dev dependency", something which we only need when developing our program, but anyone running it won't need it. `@types/node` is a library that gives types to the built-in functions in order to make things a bit easier for us. After that, typescript is installed, but we have a bit more configuration to do.
+To install TypeScript, we need to run `pnpm add --save-dev typescript @types/node` in our console. The `--dev` means that this is a "dev dependency", something which we only need when developing our program, but anyone running it won't need it. `@types/node` is a library that gives types to the built-in functions in order to make things a bit easier for us. After that, typescript is installed, but we have a bit more configuration to do.
 
 The last thing we need to do is create a `tsconfig.json`. A basic one that should suit your needs is included in this project.
 
 ## Using TypeScript
 
-The last thing to do is to actually use TypeScript. In order to turn our TypeScript into JavaScript, we just need to run the `tsc` command, which will output code into the `dist` directory. Next, we can run `node dist/index.js` to test our code. In order to make this easier, we can create a "script" in our `package.json` file. Take a look at `package.json`, then try `yarn dev` for a quicker run command.
+The last thing to do is to actually use TypeScript. In order to turn our TypeScript into JavaScript, we just need to run the `tsc` command, which will output code into the `dist` directory. Next, we can run `node dist/index.js` to test our code. In order to make this easier, we can create a "script" in our `package.json` file. Take a look at `package.json`, then try `pnpm run dev` for a quicker run command.
 
 Now, try to add types the `index.ts` file (in the `src`) directory. Good luck!
