@@ -2,7 +2,7 @@ const prompts = require("prompts");
 
 async function runProgram() {
     const input = await prompts({
-        type: "string",
+        type: "text",
         name: "value",
         message: "What's your sentence?",
     });
