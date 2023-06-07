@@ -4,13 +4,13 @@
             {
                 "_comment": "The rect function should be used.",
                 "file": "user/sketch.js",
-                "regex": "/rect\\((?:.|\\n)*\\)/g",
+                "regex": "/rect\\((?:.|\\n)*\\)/",
                 "message": "Make sure you keep the rect example in your draw function."
             },
             {
                 "_comment": "The ellipse function should be used.",
                 "file": "user/sketch.js",
-                "regex": "/ellipse\\((?:.|\\n)*\\)/g",
+                "regex": "/ellipse\\((?:.|\\n)*\\)/",
                 "message": "Make sure you set the ellipse in your draw function."
             }
         ]

@@ -4,13 +4,13 @@
             {
                 "_comment": "The background function should be used.",
                 "file": "user/sketch.js",
-                "regex": "/background\\((?:.|\\n)*\\)/g",
+                "regex": "/background\\((?:.|\\n)*\\)/",
                 "message": "Make sure you set the background in your draw function."
             },
             {
                 "_comment": "The ellipse function should be used.",
                 "file": "user/sketch.js",
-                "regex": "/ellipse\\((?:.|\\n)*\\)/g",
+                "regex": "/ellipse\\((?:.|\\n)*\\)/",
                 "message": "Make sure you set the ellipse in your draw function."
             }
         ]

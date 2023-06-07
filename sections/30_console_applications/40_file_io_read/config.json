@@ -5,13 +5,13 @@
             {
                 "_comment": "FS needs to be imported.",
                 "file": "index.js",
-                "regex": "/require\\(\\s*[`'\"]fs[`'\"]\\s*\\)/g",
+                "regex": "/require\\(\\s*[`'\"]fs[`'\"]\\s*\\)/",
                 "message": "Make sure you've imported fs using require."
             },
             {
                 "_comment": "readFileSync should be used.",
                 "file": "index.js",
-                "regex": "/readFileSync\\s*\\(/g",
+                "regex": "/readFileSync\\s*\\(/",
                 "message": "Make sure you've used fs.readFileSync()."
             }
         ],
@@ -19,7 +19,7 @@
             {
                 "_comment": "The file should be printed.",
                 "file": "index.js",
-                "regex": "/I\\'m a file\\!/g",
+                "regex": "/I\\'m a file\\!/",
                 "message": "The file's contents should be printed to the console."
             }
         ]

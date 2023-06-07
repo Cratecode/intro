@@ -6,19 +6,19 @@
             {
                 "_comment": "JSDoc comments should be used.",
                 "file": "user/index.js",
-                "regex": "/\\/\\*\\*/g",
+                "regex": "/\\/\\*\\*/",
                 "message": "Make sure you use JSDoc comments."
             },
             {
                 "_comment": "A for loop should be used.",
                 "file": "user/index.js",
-                "regex": "/for\\s*\\(/g",
+                "regex": "/for\\s*\\(/",
                 "message": "Make sure you use a for loop."
             },
             {
                 "_comment": "The split function should be used.",
                 "file": "user/index.js",
-                "regex": "/split\\s*\\(/g",
+                "regex": "/split\\s*\\(/",
                 "message": "Make sure you use the split command."
             }
         ]

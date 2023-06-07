@@ -5,7 +5,7 @@
             {
                 "_comment": "Match at least one console.",
                 "file": "index.js",
-                "regex": "/console\\.log\\((?:.|\\n)*\\)/g",
+                "regex": "/console\\.log\\((?:.|\\n)*\\)/",
                 "message": "Make sure you're printing something to the console."
             },
             {

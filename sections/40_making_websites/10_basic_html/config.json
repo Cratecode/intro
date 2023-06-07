@@ -4,19 +4,19 @@
             {
                 "_comment": "A heading should exist.",
                 "file": "user/index.html",
-                "regex": "/<h[1-6](?:\\s|>)/g",
+                "regex": "/<h[1-6](?:\\s|>)/",
                 "message": "Make sure you use a heading."
             },
             {
                 "_comment": "A paragraph should exist.",
                 "file": "user/index.html",
-                "regex": "/<p(?:\\s|>)/g",
+                "regex": "/<p(?:\\s|>)/",
                 "message": "Make sure you use a paragraph."
             },
             {
                 "_comment": "A styling tag should exist.",
                 "file": "user/index.html",
-                "regex": "/<(?:strong|small|i|s|)(?:\\s|>)/g",
+                "regex": "/<(?:strong|small|i|s|)(?:\\s|>)/",
                 "message": "Make sure you use one of the styling tags."
             }
         ]

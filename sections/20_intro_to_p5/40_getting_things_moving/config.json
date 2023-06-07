@@ -4,13 +4,13 @@
             {
                 "_comment": "The rect function should be used.",
                 "file": "user/sketch.js",
-                "regex": "/rect\\((?:.|\\n)*\\)/g",
+                "regex": "/rect\\((?:.|\\n)*\\)/",
                 "message": "Make sure you keep the rect example in your draw function."
             },
             {
                 "_comment": "One variable should be declared.",
                 "file": "user/sketch.js",
-                "regex": "/let\\s+\\w+\\s*=\\s*\\w+\\s*;/g",
+                "regex": "/let\\s+\\w+\\s*=\\s*\\w+\\s*;/",
                 "message": "Make sure you make your y position a variable (and not a constant)."
             }
         ]

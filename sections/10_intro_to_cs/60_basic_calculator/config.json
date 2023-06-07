@@ -5,7 +5,7 @@
             {
                 "_comment": "There should be a Number, parseInt, parseFloat somewhere in their code.",
                 "file": "index.js",
-                "regex": "/(?:Number|parseInt|parseFloat)/g",
+                "regex": "/Number|parseInt|parseFloat/",
                 "message": "Make sure you use one of the parsing functions we looked at in the previous lesson."
             }
         ],

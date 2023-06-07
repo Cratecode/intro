@@ -5,7 +5,7 @@
             {
                 "_comment": "The prompts library should be imported.",
                 "file": "index.js",
-                "regex": "/require\\(\\s*[`'\"]prompts[`'\"]\\s*\\)/g",
+                "regex": "/require\\(\\s*[`'\"]prompts[`'\"]\\s*\\)/",
                 "message": "Make sure you've imported the prompts library using require."
             }
         ]

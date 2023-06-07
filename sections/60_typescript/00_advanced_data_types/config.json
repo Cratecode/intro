@@ -8,13 +8,13 @@
             {
                 "_comment": "The arg should have a type.",
                 "file": "src/index.ts",
-                "regex": "/str\\s*:\\s*string/g",
+                "regex": "/str\\s*:\\s*string/",
                 "message": "Make sure you give str a type."
             },
             {
                 "_comment": "The function should have a type.",
                 "file": "src/index.ts",
-                "regex": "/)\\s*:\\s*string/g",
+                "regex": "/)\\s*:\\s*string/",
                 "message": "Make sure you give uppercaseFirstCharacter a type."
             }
         ]

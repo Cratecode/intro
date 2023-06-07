@@ -4,19 +4,19 @@
             {
                 "_comment": "A lookup should be done.",
                 "file": "user/index.html",
-                "regex": "/document\\s*\\.\\s*getElementById/g",
+                "regex": "/document\\s*\\.\\s*getElementById/",
                 "message": "Make sure you get the paragraph (use document.getElementById)."
             },
             {
-                "_comment": "The innerHtml should be set.",
+                "_comment": "The innerHtml should be set (no reason to disallow innerText though).",
                 "file": "user/index.html",
-                "regex": "/innerHtml/g",
+                "regex": "/innerHtml|innerText/",
                 "message": "Make sure you set the paragraph text (use .innerHtml)."
             },
             {
                 "_comment": "The counter should increment.",
                 "file": "user/index.html",
-                "regex": "/++|+=\\s*+|+\\s*1/g",
+                "regex": "/++|+=\\s*+|+\\s*1/",
                 "message": "Make sure you add one to the counter each time the button is pressed."
             }
         ]
