@@ -3,7 +3,7 @@
     "type": "unit",
     "id": "using_react",
     "name": "Using React",
-    "upload": ["0_web_frameworks_react"],
+    "upload": ["00_web_frameworks_react"],
     "lessons": {
         "les_web_frameworks_react": {
             "next": []

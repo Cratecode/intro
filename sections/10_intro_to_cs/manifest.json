@@ -4,13 +4,13 @@
     "id": "intro_to_cs",
     "name": "Computer Science Introduction",
     "upload": [
-        "0_why_program",
-        "1_what_programming_means",
-        "2_basic_concepts",
-        "3_your_first_program",
-        "4_console.log",
-        "5_data_types",
-        "6_basic_calculator"
+        "00_why_program",
+        "10_what_programming_means",
+        "20_basic_concepts",
+        "30_your_first_program",
+        "40_console.log",
+        "50_data_types",
+        "60_basic_calculator"
     ],
     "lessons": {
         "les_why_program": {

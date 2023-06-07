@@ -3,7 +3,7 @@
     "type": "unit",
     "id": "typescript",
     "name": "TypeScript",
-    "upload": ["0_advanced_data_types"],
+    "upload": ["00_advanced_data_types"],
     "lessons": {
         "les_advanced_data_types": {
             "next": []

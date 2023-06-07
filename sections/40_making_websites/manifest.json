@@ -3,7 +3,7 @@
     "type": "unit",
     "id": "making_websites",
     "name": "Making Websites",
-    "upload": ["0_making_websites", "1_basic_html", "2_multiple_pages", "3_using_javascript"],
+    "upload": ["00_making_websites", "10_basic_html", "20_multiple_pages", "30_using_javascript"],
     "lessons": {
         "les_making_websites": {
             "next": ["les_basic_html"]

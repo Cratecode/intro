@@ -3,7 +3,7 @@
     "type": "unit",
     "id": "next_js",
     "name": "Using Next.JS",
-    "upload": ["0_fullstack_frameworks_next"],
+    "upload": ["00_fullstack_frameworks_next"],
     "lessons": {
         "les_fullstack_frameworks_next": {
             "next": []

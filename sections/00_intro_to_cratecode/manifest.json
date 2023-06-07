@@ -3,7 +3,7 @@
     "type": "unit",
     "id": "intro_to_cratecode",
     "name": "Cratecode Introduction",
-    "upload": ["0_welcome"],
+    "upload": ["00_welcome"],
     "lessons": {
         "les_welcome": {
             "next": []

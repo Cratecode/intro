@@ -4,13 +4,13 @@
     "id": "console_applications",
     "name": "Console Applications",
     "upload": [
-        "0_upgrading_our_calculator",
-        "1_supporting_all_operations",
-        "2_word_splitter",
-        "2.5_reverse_word_splitter",
-        "3_palindromes",
-        "4_file_io_read",
-        "5_reading_data_files"
+        "00_upgrading_our_calculator",
+        "10_supporting_all_operations",
+        "20_word_splitter",
+        "21_reverse_word_splitter",
+        "30_palindromes",
+        "40_file_io_read",
+        "50_reading_data_files"
     ],
     "lessons": {
         "les_upgrading_our_calculator": {

@@ -3,16 +3,16 @@
     "id": "main_intro",
     "name": "Introduction to Computer Science",
     "upload": [
-        "sections/0_intro_to_cratecode",
-        "sections/1_intro_to_cs",
-        "sections/2_intro_to_p5",
-        "sections/3_continuing_p5",
-        "sections/3_console_applications",
-        "sections/4_making_websites",
-        "sections/5_backend_websites",
-        "sections/5_using_react",
-        "sections/6_typescript",
-        "sections/7_next_js"
+        "sections/00_intro_to_cratecode",
+        "sections/10_intro_to_cs",
+        "sections/20_intro_to_p5",
+        "sections/30_continuing_p5",
+        "sections/30_console_applications",
+        "sections/40_making_websites",
+        "sections/50_backend_websites",
+        "sections/50_using_react",
+        "sections/60_typescript",
+        "sections/70_next_js"
     ],
     "templates": "templates",
     "lessons": {

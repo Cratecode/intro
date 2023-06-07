@@ -4,9 +4,9 @@
     "id": "continuing_p5",
     "name": "Continuing p5.js",
     "upload": [
-        "0_making_things_stop",
-        "1_taking_user_input",
-        "2_putting_it_all_together"
+        "00_making_things_stop",
+        "10_taking_user_input",
+        "20_putting_it_all_together"
     ],
     "lessons": {
         "les_making_things_stop": {
