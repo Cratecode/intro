@@ -8,7 +8,7 @@ Before we can start writing our code, we first need to have a place where we can
 </script>
 ```
 
-All you have to do is create a `script` tag, then put your JavaScript code inside it. Also, your `script` tag should only go inside the `head` or `body`, since it isn't actually shown to the user.
+All you have to do is create a `script` tag, then put your JavaScript code inside it. Also, it's a good practice to only put your `script` tags inside the `head` (and not the `body`) since they aren't actually shown to the user.
 
 ---
 
@@ -60,4 +60,4 @@ Let's look at how this works. The tag we're using is `input`, which is a general
 
 Now you try. Create an HTML document inside of `index.html` which does something similar to what we just did, with a small difference. Instead of just setting it to some text every time, make the paragraph count up. So, when you first load the page, it should say something like `Press the button below`, then `1` once you press the button, `2` once you press it again, and so on. Good luck!
 
- [HTML Cheatsheet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+[HTML Cheatsheet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
