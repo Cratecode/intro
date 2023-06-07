@@ -1,0 +1,36 @@
+{
+    "validator": {
+        "validate": [
+            {
+                "_comment": "A lookup should be done.",
+                "file": "user/index.html",
+                "regex": "/document\\s*\\.\\s*getElementById/g",
+                "message": "Make sure you get the inputs and paragraph (use document.getElementById)."
+            },
+			{
+                "_comment": "The value should be used.",
+                "file": "user/index.html",
+                "regex": "/value/g",
+                "message": "Make sure you get the text from your inputs (use .value)."
+            },
+            {
+                "_comment": "The innerText should be set.",
+                "file": "user/index.html",
+                "regex": "/innerText/g",
+                "message": "Make sure you set the paragraph text (use .innerText)."
+            },
+            {
+                "_comment": "A string should be made.",
+                "file": "user/index.html",
+                "regex": "/\"|'|`/g",
+                "message": "Make sure you add text in between the user's inputs (use strings)."
+            },
+			{
+                "_comment": "The strings must be added together somehow (concatination or templates).",
+                "file": "user/index.html",
+                "regex": "/\\+|\\${/g",
+                "message": "Make sure you add text in between the user's inputs (use concatination (+))."
+            }
+        ]
+    }
+}
