@@ -2,7 +2,7 @@
 
 Let's take a look at some basic HTML. First, set up your HTML document. Remember, start with `<!DOCTYPE html>`, then create an `html` element with a `head` and `body` element inside it.
 
-A lot of HTML deals with text, so we'll start off with that. Here are a few of the most basic HTML text elements:
+A lot of HTML deals with text, so we'll start off with that. Remember, content (stuff you see, e.g. text and images) goes inside of `body`. Here are a few of the most basic HTML text elements:
 
 ## Headings
 
@@ -10,7 +10,8 @@ Headings are used to bring significance to some text by making the text big and 
 
 ```html
 <h1>BIG HEADING</h1>
-<h5>little heading</h5>
+<h3>Medium Heading</h3>
+<h6>little heading</h6>
 ```
 
 ## Paragraphs
@@ -34,10 +35,7 @@ Here's an example of using them:
 
 ```html
 <p>
-    <s
-        ><strong>ERROR:</strong> Service <i>error prone service</i> encountered
-        an error.</s
-    >
+    <s><strong>ERROR:</strong> Service <i>error prone service</i> encountered an error.</s>
     <strong>ERROR RESOLVED</strong>
 </p>
 ```
@@ -50,7 +48,7 @@ Try using these elements to create a little story with enhanced styling. It coul
 -   One of your favorite activities.
 -   What you want to do in the future.
 
-Anything goes, just make sure to use at least one element from each category (though I'd encourage you to do more than one). Mess around with it and see what you can do with these elements, and remember, every website is built using HTML. Good luck!
+Anything goes, just make sure to use at least one element from each category (though I'd encourage you to do more than one). Mess around with it and see what you can do with these elements, and remember, every website is built using HTML. If you get stuck, take a look at the example HTML document in the previous lesson. Good luck!
 
 ---
 
