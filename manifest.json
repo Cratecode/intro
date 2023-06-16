@@ -50,5 +50,13 @@
             "previous": ["using_react", "typescript"],
             "requireAll": true
         }
+    },
+    "configTemplate": {
+        "commands": {
+            "0": {
+                "cmd": "pnpm --dir ~/project --prefer-offline install",
+                "mode": "once"
+            }
+        }
     }
 }

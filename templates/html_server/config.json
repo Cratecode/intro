@@ -3,16 +3,16 @@
     "outputView": "web",
     "outputViews": ["web"],
     "run": {
-        "stop": {
-            "onStart": true
-        },
-        "command": {
-            "onStart": true
-        },
         "webviewUpdate": {
-            "onStart": true,
             "onChange": true
         },
         "hideButton": true
+    },
+    "commands": {
+        "1": {
+            "cmd": "node ~/project/index.js",
+            "mode": "restart",
+            "after": [0]
+        }
     }
 }

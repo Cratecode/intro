@@ -2,16 +2,16 @@
     "outputView": "web",
     "outputViews": ["web", "console"],
     "run": {
-        "stop": {
-            "onStart": true
-        },
-        "command": {
-            "value": "yarn --cwd ~/project dev\n",
-            "onStart": true
-        },
         "webviewUpdate": {
-            "onStart": true
+            "onChange": true
         },
         "hideButton": true
+    },
+    "commands": {
+        "1": {
+            "cmd": "yarn --cwd ~/project dev",
+            "mode": "restart",
+            "after": [0]
+        }
     }
 }
