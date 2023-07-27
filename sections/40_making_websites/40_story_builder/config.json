@@ -26,10 +26,10 @@
                 "message": "Make sure you add text in between the user's inputs (use strings)."
             },
 			{
-                "_comment": "The strings must be added together somehow (concatination or templates).",
+                "_comment": "The strings must be added together somehow (concatenation or templates).",
                 "file": "user/index.html",
                 "regex": "/\\+|\\${/",
-                "message": "Make sure you add text in between the user's inputs (use concatination (+))."
+                "message": "Make sure you add text in between the user's inputs (use concatenation (+))."
             }
         ]
     }
