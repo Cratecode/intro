@@ -39,7 +39,7 @@ function countFor(num) {
 // It's also worth noting that, for this problem, there's an even simpler (and faster) way to write it: math.
 function countMath(num) {
     // https://en.wikipedia.org/wiki/Arithmetic_progression#Sum
-    return num * (num - 1) / 2;
+    return num * (num + 1) / 2;
 }
 
 // Let's give these functions a try!
