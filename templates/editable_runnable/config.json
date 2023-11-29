@@ -4,7 +4,11 @@
     "outputViews": ["console"],
     "run": {
         "command": {
-            "value": "node $CRATECODE_FILE"
+            "value": "node $CRATECODE_FILE\n"
         }
+    },
+    "view": {
+        "toolboxWidth": 50,
+        "editorHeight": 75
     }
 }
