@@ -1,0 +1,10 @@
+{
+    "root": "/",
+    "outputView": "console",
+    "outputViews": ["console"],
+    "run": {
+        "command": {
+            "value": "node $CRATECODE_FILE"
+        }
+    }
+}

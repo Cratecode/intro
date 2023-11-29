@@ -11,6 +11,7 @@
         "sections/40_making_websites",
         "sections/50_backend_websites",
         "sections/50_using_react",
+        "sections/60_continuing_cs",
         "sections/60_typescript",
         "sections/70_next_js"
     ],
@@ -35,12 +36,15 @@
             "next": ["backend_websites", "using_react"]
         },
         "backend_websites": {
-            "next": ["typescript"],
+            "next": ["continuing_cs", "typescript"],
             "previous": ["making_websites", "console_applications"],
             "requireAll": true
         },
         "using_react": {
-            "next": ["typescript", "next_js"]
+            "next": ["continuing_cs", "typescript", "next_js"]
+        },
+        "continuing_cs": {
+            "next": []
         },
         "typescript": {
             "next": ["next_js"]

@@ -1,0 +1,9 @@
+{
+    "type": "lesson",
+    "id": "les_recursion_intro",
+    "extends": "editable_runnable",
+    "name": "Recursion Intro",
+    "unit" : "main_intro",
+    "spec": "A series of files demonstrating recursion.",
+    "class": "tutorial"
+}

@@ -1,0 +1,12 @@
+{
+    "__comment": "This is a unit that deals with more advanced CS concepts.",
+    "type": "unit",
+    "id": "continuing_cs",
+    "name": "Continuing Computer Science",
+    "upload": ["00_recursion_intro"],
+    "lessons": {
+        "les_recursion_intro": {
+            "next": []
+        }
+    }
+}
