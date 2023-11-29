@@ -36,7 +36,7 @@ function fibonacciRecursive(num) {
 // The problem here is that the function adds ones together to get to the number.
 // So, it'll calculate the number like:
 // 1 + 1 + 1 + 1 + 1 + ...
-// |______________________|
+// |_____________________|
 //            |
 // With 354224848179261915075 ones in the calculation.
 // Computers are powerful, but not that powerful.
