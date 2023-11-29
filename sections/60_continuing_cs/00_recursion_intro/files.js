@@ -38,7 +38,7 @@ const myFiles = {
 
 // Here's some code to get you started.
 // Give it a try, and if you get stuck, that's alright!
-// This is a really tricky topic, so there are hints included in the lesson (click the blacked out text to reveal them).
+// This is a really tricky topic, so there are hints included in the lesson (click the blurred out text to reveal them).
 function printFilesInFolder(filesObject) {
     // This is a for loop going through every key in `filesObject`.
     // It will look at every file/folder in the object.
@@ -73,3 +73,5 @@ printFilesInFolder(myFiles);
 
 // By the way, the source code for this website actually uses a piece of code super similar to this to
 // deal with files, as well as lessons.
+// This lesson was also uploaded by code like this:
+// https://github.com/Cratecode/client/blob/8b2b034d7ef0d6c43719fe078be3fc802ed12baa/src/upload/manifest.ts#L60.

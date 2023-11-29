@@ -18,7 +18,9 @@ more to it than that, but it's a good starting point.
 
 ---
 
-Let's take a look at a similar example. [Click here to see how we can use recursion to calculate Fibonacci Numbers](./fibonacci.js).
+Let's take a look at a similar example.
+
+[Click here to see how we can use recursion to calculate Fibonacci Numbers](./fibonacci.js).
 
 ---
 
@@ -172,7 +174,7 @@ That's it! Our function will now print every item in the tree out, all on its ow
 Here are some hints if you get stuck (click to reveal):
 * ||LOCATION 1: You can think about a file as being your base case. There's no need to recurse further when you hit a file, just print it out.||
 * ||LOCATION 2: Take a look at the code above. The problem you're working on is a bit more complicated, but the recursive part is exactly the same.||
-* ||LOCATION 1: `console.log(fileName + ": " + fileData);`||
-* ||LOCATION 2: `printFilesInFolder(fileData);`||
+* ||LOCATION 1: console.log(fileName + ": " + fileData);||
+* ||LOCATION 2: printFilesInFolder(fileData);||
 
 Good luck!
