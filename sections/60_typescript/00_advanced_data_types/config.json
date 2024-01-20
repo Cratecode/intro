@@ -14,7 +14,7 @@
             {
                 "_comment": "The function should have a type.",
                 "file": "src/index.ts",
-                "regex": "/)\\s*:\\s*string/",
+                "regex": "/\\)\\s*:\\s*string/",
                 "message": "Make sure you give uppercaseFirstCharacter a type."
             }
         ]

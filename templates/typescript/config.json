@@ -1,0 +1,7 @@
+{
+  "run": {
+    "command": {
+      "value": "node ~/project/dist/index.js\n"
+    }
+  }
+}
