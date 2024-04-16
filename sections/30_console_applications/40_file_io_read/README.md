@@ -8,7 +8,7 @@ Even though it's built in, we still need to require it in order to use it. We ca
 
 Once we've done that, we'll want to look at the `fs.readFileSync` method. There is a `readFile` method, but it's a little more complicated, so we'll stay away from it until later.
 
-`readFileSync` takes in two arguments: the path to the file, and an object with some options. We'll just be using the `encoding` option, which determines how the file should be read. We'll be setting it to `"utf8"` (a very common encoding scheme, and the one that your files are probably using). Here's an example of how it looks in code (after we've imported fs, of course):
+`readFileSync` takes in two arguments: the path to the file, and an object with some options. We'll just be using the `encoding` option, which determines how the file should be read. We'll be setting it to `"utf8"` (a very common encoding scheme, and the one that your files are probably using). [Click here to view the official documentation](https://nodejs.org/api/fs.html#fsreadfilesyncpath-options). Here's an example of how it looks in code (after we've imported fs, of course):
 
 ```js
 const data = fs.readFileSync("./data.txt", { encoding: "utf8" });
