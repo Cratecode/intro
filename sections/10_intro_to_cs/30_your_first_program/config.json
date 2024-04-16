@@ -12,7 +12,7 @@
                 "_comment": "Match two or more console.logs.",
                 "file": "index.js",
                 "regex": "/(?:(?:.|\\n)*console\\.log\\((?:.|\\n)*\\)(?:.|\\n)*){2,}/",
-                "message": "Don't just change the example, make your own message!"
+                "message": "Don't just change the example, make your own message (you should have two \"console.log\"s)!"
             }
         ]
     }
