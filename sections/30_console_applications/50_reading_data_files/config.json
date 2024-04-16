@@ -23,5 +23,6 @@
                 "message": "The array of numbers should be printed to the console. Make sure these are numbers, not strings."
             }
         ]
-    }
+    },
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/50_reading_data_files"
 }

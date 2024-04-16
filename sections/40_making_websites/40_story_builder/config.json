@@ -32,5 +32,6 @@
                 "message": "Make sure you add text in between the user's inputs (use concatenation (+))."
             }
         ]
-    }
+    },
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/40_making_websites/40_story_builder"
 }

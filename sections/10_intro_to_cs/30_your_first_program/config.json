@@ -15,5 +15,6 @@
                 "message": "Don't just change the example, make your own message (you should have two \"console.log\"s)!"
             }
         ]
-    }
+    },
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/30_your_first_program"
 }

@@ -9,5 +9,6 @@
                 "message": "Make sure you've imported the prompts library using require."
             }
         ]
-    }
+    },
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/00_upgrading_our_calculator"
 }

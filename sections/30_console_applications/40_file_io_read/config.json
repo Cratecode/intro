@@ -23,5 +23,6 @@
                 "message": "The file's contents should be printed to the console."
             }
         ]
-    }
+    },
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/40_file_io_read"
 }

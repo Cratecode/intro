@@ -15,5 +15,6 @@
                 "message": "Make sure you use the split command."
             }
         ]
-    }
+    },
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/20_word_splitter"
 }

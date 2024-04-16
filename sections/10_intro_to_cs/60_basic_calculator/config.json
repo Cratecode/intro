@@ -16,5 +16,6 @@
                 "message": "Make sure the program outputs the correct number. We should see \"958.5\" in the console."
             }
         ]
-    }
+    },
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/60_basic_calculator"
 }

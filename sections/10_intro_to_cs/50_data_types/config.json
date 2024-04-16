@@ -2,5 +2,6 @@
     "validator": {
         "requireRun": true
     },
-    "defaultFile": "index.js"
+    "defaultFile": "index.js",
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/50_data_types"
 }
