@@ -26,17 +26,17 @@ Paragraphs are another basic text element in HTML. They represent, well, paragra
 
 HTML includes some basic elements to do text styling (bold, small, strikethrough, etc). These should be inside another text element, such as a `p`. Here's a little list (although there are many, many more that aren't included):
 
+-   `b` - makes text bold.
 -   `i` - will italicize text.
 -   `s` - renders a line (strikethrough) inside of text.
 -   `small` - makes text smaller.
--   `strong` - makes text bold.
 
 Here's an example of using them:
 
 ```html
 <p>
-    <s><strong>ERROR:</strong> Service <i>error prone service</i> encountered an error.</s>
-    <strong>ERROR RESOLVED</strong>
+    <s><b>ERROR:</b> Service <i>error prone service</i> encountered an error.</s>
+    <b>ERROR RESOLVED</b>
 </p>
 ```
 
