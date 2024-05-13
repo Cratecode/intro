@@ -3,6 +3,7 @@
     "id": "les_recursion_intro",
     "extends": "editable_runnable",
     "name": "Recursion Intro",
+    "description": "Learn about recursion - a function calling itself.",
     "unit" : "main_intro",
     "spec": "A series of files demonstrating recursion.",
     "class": "tutorial"

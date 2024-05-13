@@ -3,6 +3,7 @@
     "id": "les_getting_things_moving",
     "extends": "p5_sketch",
     "name": "Getting Things Moving",
+    "description": "Use p5.js to make a shape that moves around.",
     "unit" : "main_intro",
     "spec": "A p5.js program that uses variables to move an object using variables down the screen on each draw loop.",
     "class": "activity"

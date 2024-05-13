@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_word_splitter",
     "name": "Word Splitter",
+    "description": "Create a program that breaks up a sentence into individual words.",
     "unit" : "main_intro",
     "spec": "A NodeJS application that takes in a string as input and outputs each word in the string as a separate line.",
     "class": "activity"

@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_why_program",
     "name": "Why Program?",
+    "description": "Understand why you should program and what it can be used for.",
     "unit" : "main_intro",
     "spec": "A NodeJS program that takes an addition expression as a string and writes the result to the console.",
     "class": "tutorial"

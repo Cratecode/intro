@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_data_types",
     "name": "Data Types",
+    "description": "Data can take different forms - learn about data types and the basic kinds that you'll encounter.",
     "unit" : "main_intro",
     "spec": "A NodeJS program that demonstrates how different data types work.",
     "class": "tutorial"

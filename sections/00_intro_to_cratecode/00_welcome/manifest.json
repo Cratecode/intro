@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_welcome",
     "name": "Welcome to Cratecode!",
+    "description": "Learn about Cratecode's user interface and how its lessons are structured.",
     "unit" : "main_intro",
     "spec": "A NodeJS program that writes some text to the console.",
     "class": "tutorial"

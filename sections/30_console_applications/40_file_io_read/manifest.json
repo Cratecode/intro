@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_file_io_read",
     "name": "File I/O (Reading)",
+    "description": "Learn about how to use JavaScript to read in text from files on your computer.",
     "unit" : "main_intro",
     "spec": "A NodeJS application that reads the contents of data.txt, then prints it to the console.",
     "class": "tutorial"

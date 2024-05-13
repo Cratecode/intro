@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_supporting_all_operations",
     "name": "Supporting All Operations",
+    "description": "Expand your calculator to support more than just addition.",
     "unit" : "main_intro",
     "spec": "A NodeJS application that uses the prompts library to get two numbers and an operation, and uses the specified operation on the two numbers.",
     "class": "activity"

@@ -3,6 +3,7 @@
     "id": "les_basic_html",
     "extends": "html_server",
     "name": "Basic HTML",
+    "description": "Learn about some of the most common HTML tags.",
     "unit" : "main_intro",
     "spec": "An HTML document which explains something using headings, paragraphs, and styling tags.",
     "class": "activity"

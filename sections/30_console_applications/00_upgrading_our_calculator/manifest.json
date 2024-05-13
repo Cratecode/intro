@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_upgrading_our_calculator",
     "name": "Upgrading our Calculator",
+    "description": "Create a calculator that takes in user input.",
     "unit" : "main_intro",
     "spec": "A NodeJS application that uses the prompts library to get two numbers and adds them together.",
     "class": "activity"

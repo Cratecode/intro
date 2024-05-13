@@ -2,6 +2,7 @@
     "type": "lesson",
     "id": "les_console_log",
     "name": "console.log",
+    "description": "Learn about some other ways console.log can be used.",
     "unit" : "main_intro",
     "spec": "A NodeJS program that demonstrates how console.log can be used.",
     "class": "tutorial"

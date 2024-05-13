@@ -3,6 +3,7 @@
     "id": "les_story_builder",
     "extends": "html_server",
     "name": "Story Builder",
+    "description": "Create a webpage that builds a story using words given by the user.",
     "unit" : "main_intro",
     "spec": "An HTML document which lets the user fill out some text and have a story be generated from that text upon clicking a button.",
     "class": "activity"
