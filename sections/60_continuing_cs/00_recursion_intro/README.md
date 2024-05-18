@@ -31,7 +31,7 @@ Now that you understand the basics of what recursion is (and why it isn't always
 ## "Calling Upwards"
 
 Normally when you write code, your functions "call downwards":
-![A graph of functions only pointing downwards](https://raw.githubusercontent.com/Cratecode/intro/eba39b4607ea1d3872c782c00f92756a9e933d9f/images/Recursion-Call-Down.svg)
+$$IMAGE Recursion-Call-Down.svg A graph of functions only pointing downwards$$
 ```js
 function main() {
     readData();
@@ -57,7 +57,7 @@ function setupDatabase() {
 ```
 
 The idea of "calling downwards" is a little bit abstract, so let's see something that doesn't "call downwards":
-![A graph of functions with a loop between some of the functions](https://raw.githubusercontent.com/Cratecode/intro/eba39b4607ea1d3872c782c00f92756a9e933d9f/images/Recursion-Call-Up.svg)
+$$IMAGE Recursion-Call-Up.svg A graph of functions with a loop between some of the functions$$
 ```js
 function main() {
     readData();
@@ -111,7 +111,7 @@ recursion is used: trees.
 Trees are really similar to what we just talked about above. They're a way of organizing data so that things
 point to other things, and they only point downwards. Sound familiar?
 
-![A graph of functions only pointing downwards](https://raw.githubusercontent.com/Cratecode/intro/eba39b4607ea1d3872c782c00f92756a9e933d9f/images/Recursion-Call-Down.svg)
+$$IMAGE Recursion-Call-Down.svg A graph of functions only pointing downwards$$
 
 That first example we looked at is actually a tree. As soon as there start being loops though, it's no longer a tree.
 
@@ -149,7 +149,7 @@ This program will work, but it's still missing something. If we gave it our tree
 
 A neat thing about trees is that we can can split them up into pieces. Now that we've printed `main`, let's chop it off!
 
-![The same graph as above with the top node removed](https://raw.githubusercontent.com/Cratecode/intro/eba39b4607ea1d3872c782c00f92756a9e933d9f/images/Recursion-Call-Down-No-Main.svg)
+$$IMAGE Recursion-Call-Down-No-Main.svg The same graph as above with the top node removed$$
 
 Now, if we stick this into our function, it'll print out `readData`. As it turns out, this is exactly what we need to
 do to solve the problem. This chopping off and re-running the function can all be written in code, and we'll use recursion

@@ -16,6 +16,7 @@
         "sections/70_next_js"
     ],
     "templates": "templates",
+    "images": "images",
     "lessons": {
         "intro_to_cratecode": {
             "next": ["intro_to_cs"]
