@@ -3,7 +3,7 @@
     "id": "les_basic_calculator",
     "name": "Building a Basic Calculator",
     "description": "Create a simple calculator that adds two numbers together.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A NodeJS program takes two numbers as string constants, num1 and num2, converts them to numbers and adds them together, then prints the result to the console.",
     "class": "activity"
 }

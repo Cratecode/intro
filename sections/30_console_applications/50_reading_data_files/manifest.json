@@ -3,7 +3,7 @@
     "id": "les_reading_data_files",
     "name": "Reading Data Files",
     "description": "Create a program to read in data from a file.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A NodeJS application that reads the contents of data.txt (a file where every line is a number), turns it into an array of numbers, and prints out that array.",
     "class": "tutorial"
 }

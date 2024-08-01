@@ -1,8 +1,13 @@
 # Getting Things Moving
 
-Constants are great. They help us simplify our code, and let us change things with ease. If we want to move things around, all we need to do change the value of the constant. But what if we want the computer to move it around on its own?
+Constants are great.
+They help us simplify our code and let us change things with ease.
+If we want to move things around, all we need to do is change the value of the constant.
+But what if we want the computer to move it around on its own?
 
-In addition to constants, we have variables. They're super similar to constants, but we can change their value. Here's a little example:
+In addition to constants, we have variables.
+They're super similar to constants, but we can change their value.
+Here's a little example:
 
 ```js
 // We declare a variable just like a constant, but we use "let" instead of "const".
@@ -22,9 +27,12 @@ num = num + 1;
 console.log(num); // 3
 ```
 
-If we want to move our object down, we should probably have a position variable (specifically, the y position) and add one to it each time we draw the object.
+If we want to move our object down,
+we should probably have a position variable (specifically, the y position)
+and add one to it each time we draw the object.
 
-One thing you should be careful of is "block-scoping", where variables only live inside their brackets. Here's a little example:
+One thing you should be careful of is "block-scoping", where variables only live inside their brackets.
+Here's a little example:
 
 ```js
 function doSomething() {
@@ -38,7 +46,11 @@ doSomething(); // 1
 doSomething(); // 1
 ```
 
-The `doSomething()` function will always log `1` no matter how many times it's ran. This is because our counter only lives inside the brackets, and doesn't keep its value after multiple runs of the function. This is useful in some cases, but not so much for our counter. Luckily, there's an easy fix: move the variable outside the brackets:
+The `doSomething()` function will always log `1` no matter how many times it's run.
+This is because our counter only lives inside the brackets 
+and doesn't keep its value after multiple runs of the function.
+This is useful in some cases, but not so much for our counter.
+Luckily, there's an easy fix — move the variable outside the brackets:
 
 ```js
 let counter = 0;
@@ -52,8 +64,15 @@ doSomething(); // 1
 doSomething(); // 2
 ```
 
-Even though the counter is still added to inside the brackets, the variable itself lives outside them and keeps its value across multiple runs of the function. Because of that, our counter works! If your object doesn't move, make sure your position variable lives outside the draw function.
+Even though the counter is still added to inside the brackets,
+the variable itself lives outside them and keeps its value across multiple runs of the function.
+Because of that, our counter works!
+If your object doesn't move, make sure your position variable lives outside the draw function.
 
-Right now, I've included a version of the object using constants. Choose one (or multiple) of these to change into variables and make them "animated" in some way. I've given the example of moving the object downwards, but you should try changing some other values (moving it side-to-side, moving it diagonally, stretching and shrinking it, etc). Good luck!
+Right now, I've included a version of the object using constants.
+Choose one (or multiple) of these to change into variables and make them "animated" in some way.
+I've given the example of moving the object downwards, but you should try changing some other values
+(moving it side-to-side, moving it diagonally, stretching and shrinking it, etc.).
+Good luck!
 
 [p5.js cheatsheet](https://bmoren.github.io/p5js-cheat-sheet/)

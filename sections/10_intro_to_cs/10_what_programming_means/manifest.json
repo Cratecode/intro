@@ -3,7 +3,7 @@
     "id": "les_what_programming_means",
     "name": "What Programming Means",
     "description": "Programming is more than just writing code - you need to be an effective problem solver as well.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": null,
     "class": "tutorial"
 }

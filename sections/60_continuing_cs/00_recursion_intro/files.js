@@ -11,20 +11,20 @@
 // Eventually, we'll get the contents of `secretfile.txt`.
 // This can be written in JavaScript as `myFiles["home"]["me"]["Documents"]["secretfile.txt"]`.
 const myFiles = {
-    "home": {
-        "me": {
-            "Documents": {
+    home: {
+        me: {
+            Documents: {
                 "secretfile.txt": "My secret",
-                "favoritenumber.txt": "1"
+                "favoritenumber.txt": "1",
             },
-            "Desktop": {
-                "poem.txt": "Current Draft: roses are red, violets are blue"
-            }
-        }
+            Desktop: {
+                "poem.txt": "Current Draft: roses are red, violets are blue",
+            },
+        },
     },
-    "logs": {
-        "systemlog.txt": "No errors detected!"
-    }
+    logs: {
+        "systemlog.txt": "No errors detected!",
+    },
 };
 
 // Now, take a moment to think about how you might write a program that prints out every file.
@@ -48,9 +48,8 @@ function printFilesInFolder(filesObject) {
         // Don't worry about what this is doing.
         // This if statement is checking whether we're looking at a file
         // or a folder.
-        if (typeof(fileData) === "string") {
+        if (typeof fileData === "string") {
             // It's a file!
-
             // LOCATION 1
             // What should we do here?
             // Remember, this function is meant to print out info
@@ -59,7 +58,6 @@ function printFilesInFolder(filesObject) {
             // stored inside it.
         } else {
             // It's a folder!
-
             // LOCATION 2
             // What should we do here?
             // Remember, `fileData` is a folder object,

@@ -1,6 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-const UpdatingButton: React.FC<{startingValue: number}> = ({startingValue}) => {
+const UpdatingButton: React.FC<{ startingValue: number }> = ({
+    startingValue,
+}) => {
     // useState takes in a default value. We could just put 0 here,
     // but I want to show that these default values can be changed.
     // Keep in mind that because it's a default value, if startingValue's
@@ -19,7 +21,11 @@ const UpdatingButton: React.FC<{startingValue: number}> = ({startingValue}) => {
         // Whenever we run setCounter, it will update the counter, then "re-render" this component. That means
         // that this function will be re-run with the new value for counter. React will see that the value
         // is updated, and will update the actual HTML on the page accordingly.
-        <input type="button" value={counter + " clicks!"} onClick={() => setCounter(currentCounter => currentCounter + 1)} />
+        <input
+            type="button"
+            value={counter + " clicks!"}
+            onClick={() => setCounter((currentCounter) => currentCounter + 1)}
+        />
     );
 };
 

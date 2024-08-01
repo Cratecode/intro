@@ -26,12 +26,14 @@ Let's take a look at a similar example.
 
 Seeing these examples, you might think that recursion is useless. Fear not!
 We'll take a look at some of the real-world use-cases for recursion later.
-Now that you understand the basics of what recursion is (and why it isn't always the best), let's get a bit more complicated!
+Now that you understand the basics of what recursion is (and why it isn't always the best),
+let's get a bit more complicated!
 
 ## "Calling Upwards"
 
-Normally when you write code, your functions "call downwards":
+Normally, when you write code, your functions "call downwards":
 $$IMAGE Recursion-Call-Down.svg A graph of functions only pointing downwards$$
+
 ```js
 function main() {
     readData();
@@ -57,7 +59,8 @@ function setupDatabase() {
 ```
 
 The idea of "calling downwards" is a little bit abstract, so let's see something that doesn't "call downwards":
-$$IMAGE Recursion-Call-Up.svg A graph of functions with a loop between some of the functions$$
+$$IMAGE Recursion-Call-Up.svg A graph of functions with a loop between some functions$$
+
 ```js
 function main() {
     readData();
@@ -96,12 +99,14 @@ you might end up needing to use this sort of recursion.
 Unlike with our examples above (counting and fibonacci), this type of recursion usually isn't inefficient.
 Getting to the bottom of what makes things fast is a little bit complicated, but in programs which use this type of
 recursion, they're already doing so many different things that a bit of recursion won't cause any issues.
-Additionally, they don't recurse that much, unlike some of our examples (like Fibonacci, which recursed trillions of times).
+Additionally, they don't recurse that much, unlike some of our examples
+(like Fibonacci, which recursed trillions of times).
 
 Usually you only want to use recursion in a select few cases:
-* Your problem is much more complicated without recursion (i.e. there isn't a better way).
-* You don't recurse many times.
-* You're dealing with a type of problem where recursion is the best way to do it (we'll see an example of this later).
+
+-   Your problem is much more complicated without recursion (i.e., there isn't a better way).
+-   You don't recurse many times.
+-   You're dealing with a type of problem where recursion is the best way to do it (we'll see an example of this later).
 
 ## Trees ("the most significant use-case")
 
@@ -109,16 +114,17 @@ Now that we've seen what recursion is and what its limits are, I want to introdu
 recursion is used: trees.
 
 Trees are really similar to what we just talked about above. They're a way of organizing data so that things
-point to other things, and they only point downwards. Sound familiar?
+point to other things, and they only point downwards.
+Sound familiar?
 
 $$IMAGE Recursion-Call-Down.svg A graph of functions only pointing downwards$$
 
-That first example we looked at is actually a tree. As soon as there start being loops though, it's no longer a tree.
+That first example we looked at is actually a tree. As soon as there start being loops, though, it's no longer a tree.
 
 So, our non-recursive function example is a tree, and our recursive example isn't. Even without any code or algorithms, trees
 and recursion are connected!
 
-But, let's take a look at some code. Imagine that you wanted to write a program to print out every item in the tree.
+But let's take a look at some code. Imagine that you wanted to write a program to print out every item in the tree.
 
 ```js
 function printTree(tree) {
@@ -127,6 +133,7 @@ function printTree(tree) {
 ```
 
 We can start by going through every "node" at the top of the tree.
+
 ```js
 function printTree(tree) {
     for (const node of tree) {
@@ -136,6 +143,7 @@ function printTree(tree) {
 ```
 
 The point of the program is to print out the names of the nodes, so let's do that:
+
 ```js
 function printTree(tree) {
     for (const node of tree) {
@@ -144,27 +152,29 @@ function printTree(tree) {
 }
 ```
 
-This program will work, but it's still missing something. If we gave it our tree from above, it would only print out
-`main`. That's because we're only asking it to print out nodes at the top of the tree.
+This program will work, but it's still missing something.
+If we gave it our tree from above, it would only print out `main`.
+That's because we're only asking it to print out nodes at the top of the tree. 
 
-A neat thing about trees is that we can can split them up into pieces. Now that we've printed `main`, let's chop it off!
+A neat thing about trees is that we can split them up into pieces. Now that we've printed `main`, let's chop it off!
 
 $$IMAGE Recursion-Call-Down-No-Main.svg The same graph as above with the top node removed$$
 
-Now, if we stick this into our function, it'll print out `readData`. As it turns out, this is exactly what we need to
-do to solve the problem. This chopping off and re-running the function can all be written in code, and we'll use recursion
-to do it!
+Now, if we stick this into our function, it'll print out `readData`.
+As it turns out, this is exactly what we need to do to solve the problem.
+This chopping off and re-running the function can all be written in code, and we'll use recursion to do it!
+
 ```js
 function printTree(tree) {
     for (const node of tree) {
         console.log(node.name);
         printTree(node);
     }
-    
+
     // The reason there's no base case here is that, when we get to a node
     // with nothing under it, the for loop won't run, so the function won't
     // call itself again.
-    // You don't always need a base case!
+    // You don't always need an explicit base case!
 }
 ```
 
@@ -172,9 +182,10 @@ That's it! Our function will now print every item in the tree out, all on its ow
 [click here to try out a real-world example with trees and recursion](./files.js).
 
 Here are some hints if you get stuck (click to reveal):
-* ||LOCATION 1: You can think about a file as being your base case. There's no need to recurse further when you hit a file, just print it out.||
-* ||LOCATION 2: Take a look at the code above. The problem you're working on is a bit more complicated, but the recursive part is exactly the same.||
-* ||LOCATION 1: console.log(fileName + ": " + fileData);||
-* ||LOCATION 2: printFilesInFolder(fileData);||
+
+-   ||LOCATION 1: You can think about a file as being your base case. There's no need to recurse further when you hit a file, just print it out.||
+-   ||LOCATION 2: Take a look at the code above. The problem you're working on is a bit more complicated, but the recursive part is exactly the same.||
+-   ||LOCATION 1: console.log(fileName + ": " + fileData);||
+-   ||LOCATION 2: printFilesInFolder(fileData);||
 
 Good luck!

@@ -4,7 +4,7 @@
     "extends": "p5_sketch",
     "name": "Putting It All Together",
     "description": "Build a game in p5.js using knowledge from the previous lessons.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A p5.js program that creates a basic game where a user can control an object (that has gravity) using the WASD keys.",
     "class": "project"
 }

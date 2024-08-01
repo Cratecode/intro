@@ -4,7 +4,7 @@
     "extends": "typescript",
     "name": "Advanced Data Types",
     "description": "Learn about TypeScript and how it can help catch bugs in your program.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A TypeScript program with a function that uppercases the first character in a string.",
     "class": "tutorial"
 }

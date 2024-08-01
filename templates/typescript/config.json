@@ -1,7 +1,7 @@
 {
-  "run": {
-    "command": {
-      "value": "node ~/project/dist/index.js\n"
+    "run": {
+        "command": {
+            "value": "node ~/project/dist/index.js\n"
+        }
     }
-  }
 }

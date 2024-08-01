@@ -4,7 +4,7 @@
     "extends": "html_server",
     "name": "Making Websites",
     "description": "Learn about how to make websites with HTML.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "An HTML document which demonstrates the basics of HTML.",
     "class": "tutorial"
 }

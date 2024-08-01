@@ -3,7 +3,7 @@
     "id": "les_palindromes",
     "name": "Palindromes",
     "description": "Create a program to check if a word is a palindrome.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A JavaScript function which checks if a string is a palindrome.",
     "class": "activity"
 }

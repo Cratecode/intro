@@ -10,7 +10,7 @@ async function runProgram() {
     const inputArray = input.split(" ");
 
     // TODO: Put this in reverse order.
-    for(let i = 0; i < inputArray.length; i++) {
+    for (let i = 0; i < inputArray.length; i++) {
         console.log(inputArray[i]);
     }
 }

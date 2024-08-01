@@ -2,7 +2,7 @@
     "__comment": "This is a unit that introduces students to next.js. It does not focus on backend (that is in the next unit).",
     "type": "unit",
     "id": "next_js",
-    "name": "Using Next.JS",
+    "name": "Using Next.js",
     "upload": ["00_fullstack_frameworks_next"],
     "lessons": {
         "les_fullstack_frameworks_next": {

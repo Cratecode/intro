@@ -3,7 +3,7 @@
     "id": "les_reverse_word_splitter",
     "name": "Reverse Word Splitter",
     "description": "Create a program that breaks up a sentence into individual words and prints them backwards.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A NodeJS application that takes in a string as input and outputs each word in the string in reverse order as a separate line.",
     "class": "challenge"
 }

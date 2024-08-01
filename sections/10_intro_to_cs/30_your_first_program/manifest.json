@@ -3,7 +3,7 @@
     "id": "les_your_first_program",
     "name": "Your First Program",
     "description": "Create your first program, printing a message to the screen.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A NodeJS program that prints a message to the console.",
     "class": "activity"
 }

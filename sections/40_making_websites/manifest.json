@@ -3,7 +3,13 @@
     "type": "unit",
     "id": "making_websites",
     "name": "Making Websites",
-    "upload": ["00_making_websites", "10_basic_html", "20_multiple_pages", "30_using_javascript", "40_story_builder"],
+    "upload": [
+        "00_making_websites",
+        "10_basic_html",
+        "20_multiple_pages",
+        "30_using_javascript",
+        "40_story_builder"
+    ],
     "lessons": {
         "les_making_websites": {
             "next": ["les_basic_html"]
@@ -17,8 +23,8 @@
         "les_using_javascript": {
             "next": ["les_story_builder"]
         },
-		"les_story_builder": {
-			"next": []
-		}
+        "les_story_builder": {
+            "next": []
+        }
     }
 }

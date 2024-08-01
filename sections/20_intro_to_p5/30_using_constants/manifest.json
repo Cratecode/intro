@@ -4,7 +4,7 @@
     "extends": "p5_sketch",
     "name": "Using Constants",
     "description": "Learn about constants and how they can make programming easier.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A p5.js program that uses constants to draw a large rectangle with four smaller rectangles at its corners, with half its width and height.",
     "class": "activity"
 }

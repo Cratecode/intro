@@ -4,7 +4,7 @@
     "extends": "p5_sketch",
     "name": "Getting Complex",
     "description": "Try creating something a bit more complicated in p5.js.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A p5.js program that draws 5 ellipses, one large one and four at the corners of the larger one, with half the width and height of it.",
     "class": "activity"
 }

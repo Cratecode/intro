@@ -3,7 +3,7 @@
     "id": "les_basic_concepts",
     "name": "Basic Concepts",
     "description": "See what the basic structure of a program is and how to write it.",
-    "unit" : "main_intro",
+    "unit": "main_intro",
     "spec": "A NodeJS program which demonstrates some basic programming concepts.",
     "class": "tutorial"
 }
