@@ -1,4 +1,5 @@
 {
     "defaultFile": "user/index.html",
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/40_making_websites/00_making_websites"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/40_making_websites/00_making_websites",
+    "showShareButton": true
 }

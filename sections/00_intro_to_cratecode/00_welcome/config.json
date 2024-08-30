@@ -2,5 +2,6 @@
     "validator": {
         "requireRun": true
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/00_intro_to_cratecode/00_welcome"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/00_intro_to_cratecode/00_welcome",
+    "showShareButton": true
 }

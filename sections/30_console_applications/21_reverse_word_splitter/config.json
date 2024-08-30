@@ -22,5 +22,6 @@
             }
         ]
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/21_reverse_word_splitter"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/21_reverse_word_splitter",
+    "showShareButton": true
 }

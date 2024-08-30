@@ -2,5 +2,6 @@
     "root": "/pages",
     "outputView": "web",
     "outputViews": ["web"],
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/50_using_react/00_web_frameworks_react"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/50_using_react/00_web_frameworks_react",
+    "showShareButton": true
 }

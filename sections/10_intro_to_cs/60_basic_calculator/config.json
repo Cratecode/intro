@@ -17,5 +17,6 @@
             }
         ]
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/60_basic_calculator"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/60_basic_calculator",
+    "showShareButton": true
 }

@@ -1,4 +1,5 @@
 {
     "defaultFile": "user/sketch.js",
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/20_intro_to_p5/00_what_is_p5"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/20_intro_to_p5/00_what_is_p5",
+    "showShareButton": true
 }

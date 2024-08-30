@@ -33,5 +33,6 @@
             }
         ]
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/40_making_websites/40_story_builder"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/40_making_websites/40_story_builder",
+    "showShareButton": true
 }

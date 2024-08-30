@@ -20,5 +20,6 @@
         ]
     },
     "defaultFile": "src/index.ts",
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/60_typescript/00_advanced_data_types"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/60_typescript/00_advanced_data_types",
+    "showShareButton": true
 }

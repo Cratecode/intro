@@ -15,5 +15,6 @@
             }
         ]
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/20_intro_to_p5/10_drawing_basic_shapes"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/20_intro_to_p5/10_drawing_basic_shapes",
+    "showShareButton": true
 }

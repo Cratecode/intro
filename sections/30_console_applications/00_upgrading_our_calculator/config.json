@@ -10,5 +10,6 @@
             }
         ]
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/00_upgrading_our_calculator"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/00_upgrading_our_calculator",
+    "showShareButton": true
 }

@@ -23,5 +23,6 @@
             }
         ]
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/30_palindromes"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/30_console_applications/30_palindromes",
+    "showShareButton": true
 }

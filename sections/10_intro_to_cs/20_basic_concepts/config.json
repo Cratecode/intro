@@ -3,5 +3,6 @@
         "requireRun": true
     },
     "defaultFile": "index.js",
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/20_basic_concepts"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/20_basic_concepts",
+    "showShareButton": true
 }

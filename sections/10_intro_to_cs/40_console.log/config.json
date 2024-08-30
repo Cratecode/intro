@@ -3,5 +3,6 @@
         "requireRun": true
     },
     "defaultFile": "index.js",
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/40_console.log"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/40_console.log",
+    "showShareButton": true
 }

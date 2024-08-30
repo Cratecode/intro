@@ -21,5 +21,6 @@
             }
         ]
     },
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/40_making_websites/10_basic_html"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/40_making_websites/10_basic_html",
+    "showShareButton": true
 }

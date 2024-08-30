@@ -3,5 +3,6 @@
         "requireRun": true
     },
     "defaultFile": "index.js",
-    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/00_why_program"
+    "source": "https://github.com/Cratecode/intro/tree/master/sections/10_intro_to_cs/00_why_program",
+    "showShareButton": true
 }
