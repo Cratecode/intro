@@ -57,6 +57,11 @@
         }
     },
     "configTemplate": {
+        "run": {
+            "command": {
+                "value": "node ~/project/index.js\n"
+            }
+        },
         "commands": {
             "0": {
                 "cmd": "pnpm --dir ~/project --prefer-offline install",
